@@ -6,20 +6,19 @@ authors = ["\"Anna Vasylytsya\""]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.8" #limited to 3.8 because of turicreate
 pandas = "^1.4.1"
 numpy = "^1.22.3"
 requests = "^2.27.1"
 beautifulsoup4 = "^4.10.0"
-tqdm = "^4.63.1"
 turicreate = "^6.4.1"
 streamlit = "^1.8.0"
+
+[tool.poetry.dev-dependencies]
+tqdm = "^4.63.1"
 jupyterlab = "^3.3.2"
 notebook = "^6.4.10"
 ipykernel = "^6.9.2"
-
-
-[tool.poetry.dev-dependencies]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
