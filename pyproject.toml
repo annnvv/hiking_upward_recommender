@@ -1,24 +1,24 @@
 [tool.poetry]
-name = "hike_recommend"
+name = "hiking_upward"
 version = "0.1.0"
 description = "\"\""
 authors = ["\"Anna Vasylytsya\""]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8" #limited to 3.8 because of turicreate
-pandas = "^1.4.1"
-numpy = "^1.22.3"
+python = "^3.7.11"
+pandas = "^1.3.5"
+numpy = "^1.20.3"
 requests = "^2.27.1"
 beautifulsoup4 = "^4.10.0"
+streamlit = "^1.8.1"
 turicreate = "^6.4.1"
-streamlit = "^1.8.0"
 
 [tool.poetry.dev-dependencies]
-tqdm = "^4.63.1"
+tqdm = "^4.63.0"
+notebook = "^6.4.8"
 jupyterlab = "^3.3.2"
-notebook = "^6.4.10"
-ipykernel = "^6.9.2"
+ipykernel = "^6.9.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
