@@ -51,5 +51,4 @@ if url:
     # Inject CSS with Markdown
     st.markdown(hide_dataframe_row_index, unsafe_allow_html=True)
 
-    st.dataframe(merged)
-
+    st.dataframe(merged.to_html(escape=False, index=False), unsafe_allow_html=True)
