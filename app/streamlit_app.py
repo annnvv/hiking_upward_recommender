@@ -4,6 +4,7 @@ import numpy as np
 
 st.title("Hiking Upward Recommender")
 
+st.header("Input")
 try:
     url = st.text_input("Hiking Upward Hike URL")
 except ValueError:
@@ -11,6 +12,7 @@ except ValueError:
 
 num_recommend = st.radio("Choose the number of recommendations", (5, 10, 15))
 
+st.header("Output")
 if url:
 
     hike_df = pd.read_csv("app/data/hiking_upward_data.csv")
