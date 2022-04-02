@@ -22,7 +22,7 @@ if url:
 
     hike_df = pd.read_csv("app/data/hiking_upward_data.csv")
 
-    recommend_df = pd.read_csv("app/data/nearest_25_recommendations_for_each_hike.csv")
+    recommend_df = pd.read_csv("app/data/nearest_15_recommendations_for_each_hike.csv")
 
     one_hike = hike_df[hike_df.hike_url == url].reset_index(drop=True)
     st.text("Input Hike Information")
