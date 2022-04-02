@@ -53,3 +53,7 @@ if url:
 
     st.dataframe(merged)
 
+st.subheader("Methodology Note")
+st.text(
+    "The recommender system calculates the cosine similarity between the hike and all other hikes. In calculating the cosine similarity, it takes into account hike length, difficulty rating, streams, views, solitude, and camping ratings. A future iteration will take into account hike duration and elevation gain. Then, the top 5, 10, or 15 most similar hikes are returned."
+)
