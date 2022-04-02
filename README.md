@@ -4,6 +4,8 @@
 
 **Purpose**: The purpose of this repo is to create and deploy an app that recommends similar Hiking Upward hikes based on a Hiking Upward Hike (using a URL as an identifier). 
 
+To see the app, please visit [this link](https://share.streamlit.io/annnvv/hiking_upward_recommender/main/app/streamlit_app.py).
+
 ## Skills used:
 - Web scraping using requests and beautifulsoup 
 - Content-based recommender systems using Apple's Turicreate
