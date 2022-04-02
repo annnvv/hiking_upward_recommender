@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(title="Hiking Upward Recommender", layout="wide")
+st.set_page_config(title="Hiking Upward Recommender")
+st.set_page_config(layout="wide")
 
 st.title("Hiking Upward Recommender")
 
