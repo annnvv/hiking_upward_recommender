@@ -22,10 +22,13 @@
 
 ### Poetry:
 - [Poetry Docs](https://python-poetry.org/docs/basic-usage/)
-https://mungingdata.com/python/jupyter-workflow-poetry-pandas/ 
-https://pythonspeed.com/articles/poetry-vs-docker-caching/
+- https://realpython.com/dependency-management-python-poetry/
+- https://mungingdata.com/python/jupyter-workflow-poetry-pandas/ 
+- https://pythonspeed.com/articles/poetry-vs-docker-caching/
 
 ### Docker:
 - [Deploy streamlit with Docker](https://towardsdatascience.com/create-an-awesome-streamlit-app-deploy-it-with-docker-a3d202a636e8#:~:text=Time%20to%20Dockerize%20the%20application)
+- [Docker Ignore](https://codefresh.io/docker-tutorial/not-ignore-dockerignore-2/)
 
 ### Streamlit:
+- https://www.rockyourcode.com/run-streamlit-with-docker-and-docker-compose/
