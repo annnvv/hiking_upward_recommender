@@ -1,0 +1,600 @@
+hike_url,hike_name,park_abbreviation,hike_len_in_mi,difficulty_rating,streams_rating,views_rating,solitude_rating,camping_rating,hiking_duration_str,elevation_gain_ft
+https://www.hikingupward.com/GWNF/AnthillSlateLick/,Anthill/Slate Lick Hike,GWNF,11.5,4.0,3.0,2.0,4.0,3.0,5.5 hours including breaks,2000.0
+https://www.hikingupward.com/GWNF/BaldKnob/,Bald Knob/Cold Mountain Hike,GWNF,11.9,5.0,0.0,5.0,3.0,3.0,7.0 hours including time for lunch,3360.0
+https://www.hikingupward.com/GWNF/BigRockyRow/,Big Rocky Row Hike,GWNF,12.3,4.0,3.0,4.0,3.0,3.0,"4.5 hours
+                      plus a half hour for  lunch",2694.0
+https://www.hikingupward.com/GWNF/BigSchloss/,Big Schloss Hike,GWNF,4.1,2.0,0.0,5.0,2.0,4.0,"4 hours plus a half hour for 
+                      lunch",1035.0
+https://www.hikingupward.com/GWNF/BillKruszkaOverlook/,Bill Kruszka Overlook Hike,GWNF,5.3,3.0,0.0,4.0,4.0,1.0,3.5 hours including breaks,1308.0
+https://www.hikingupward.com/GWNF/BlueRidgeTunnel/,Blue Ridge Tunnel Hike,GWNF,4.6,2.0,0.0,0.0,0.0,0.0,2.0 hours including breaks,470.0
+https://www.hikingupward.com/GWNF/BoganRun/,Bogan Run Hike,GWNF,14.0,4.0,3.0,4.0,5.0,2.0,6.5 hours with breaks,3450.0
+https://www.hikingupward.com/GWNF/BrandywineRecreationArea/,Brandywine Recreation Area Hike,GWNF,5.8,5.0,0.0,5.0,4.0,5.0,4.0 hrs plus a half hour for lunch,
+https://www.hikingupward.com/GWNF/BrandywineRecreationArea/,Brandywine Recreation Area Hike,GWNF,3.7,2.0,2.0,0.0,3.0,5.0,2.0 hrs plus a half hour for lunch,
+https://www.hikingupward.com/GWNF/BrownsHollow/,Browns Hollow Hike,GWNF,11.7,4.0,3.0,4.0,4.0,4.0,"5.5 hours 
+                      plus a half hour for lunch",2395.0
+https://www.hikingupward.com/GWNF/BuzzardRock/,Buzzard Rock Hike,GWNF,7.0,3.0,1.0,2.0,2.0,2.0,"5.5 hours 
+                      plus a half hour for lunch",2510.0
+https://www.hikingupward.com/GWNF/BuzzardRockNorth/,Buzzard Rock North Hike,GWNF,4.0,2.0,1.0,5.0,2.0,1.0,"1.5 hours 
+                      plus a half hour for lunch",650.0
+https://www.hikingupward.com/GWNF/CathedralRocks/,Cathedral Rocks Hike,GWNF,2.1,2.0,0.0,4.0,5.0,0.0,"1 hour, including viewing time from the rocks",800.0
+https://www.hikingupward.com/GWNF/ChimneyHollowElliottKnob/,Chimney Hollow/Elliott Knob Hike,GWNF,15.4,5.0,3.0,5.0,4.0,2.0,"8.0 hours
+                      plus a half hour for  lunch",3670.0
+https://www.hikingupward.com/GWNF/ChurchRock/,Church Rock Hike,GWNF,7.6,4.0,0.0,5.0,5.0,3.0,4.5 hours including breaks,1760.0
+https://www.hikingupward.com/GWNF/ColdMountain/,Cold Mountain Hike,GWNF,5.8,3.0,0.0,5.0,3.0,3.0,"3.5 hours
+                      plus a half hour for  lunch",1490.0
+https://www.hikingupward.com/GWNF/CopernicusRidge/,Copernicus Ridge Hike,GWNF,2.6,2.0,0.0,4.0,5.0,0.0,2.0 hours including breaks,905.0
+https://www.hikingupward.com/GWNF/CrabtreeFalls/,Crabtree Falls/Spy Rock Hike,GWNF,3.8,2.0,5.0,2.0,0.0,0.0,"3.0 hours 
+                      plus a half hour for lunch",1380.0
+https://www.hikingupward.com/GWNF/CrabtreeFalls/,Crabtree Falls/Spy Rock Hike,GWNF,13.9,4.0,5.0,4.0,3.0,5.0,6.0 hours plus 1hr for lunch and breaks,1380.0
+https://www.hikingupward.com/GWNF/DobieMountain/,Dobie Mountain Hike,GWNF,6.8,3.0,2.0,3.0,3.0,4.0,3.5 hours plus 1/2 hour for lunch,1560.0
+https://www.hikingupward.com/GWNF/DrippingRockRockfishGap/,Dripping Rock/Rockfish Gap Hike,GWNF,15.3,3.0,3.0,5.0,3.0,4.0,2 Day Point-to-Point Shuttle Hike,2560.0
+https://www.hikingupward.com/GWNF/DuncanKnob/,Duncan Knob Hike,GWNF,3.6,3.0,1.0,5.0,3.0,4.0,Gap Creek - Out/Back,
+https://www.hikingupward.com/GWNF/DuncanKnob/,Duncan Knob Hike,GWNF,8.5,4.0,1.0,5.0,3.0,4.0,Scothorn Gap Loop,
+https://www.hikingupward.com/GWNF/DuncanKnobHollow/,Duncan Knob Hollow Hike,GWNF,13.0,4.0,3.0,4.0,3.0,5.0,"6.0 hours
+                        plus a half hour for  lunch",2560.0
+https://www.hikingupward.com/GWNF/EagleRock/,Eagle Rock Hike,GWNF,7.2,3.0,0.0,5.0,3.0,2.0,4.0 hours including 30 minutes for breaks,1065.0
+https://www.hikingupward.com/GWNF/ElliottKnob/,Elliott Knob Hike,GWNF,8.5,4.0,3.0,4.0,4.0,3.0,"5.5 hours
+                      plus a half hour for  lunch",2425.0
+https://www.hikingupward.com/GWNF/EmeraldPond/,Emerald Pond Hike,GWNF,8.0,3.0,0.0,4.0,3.0,3.0,"4.5 hours 
+                      plus a half hour for lunch",1690.0
+https://www.hikingupward.com/GWNF/FallsRidge/,Falls Ridge Hike,GWNF,6.9,4.0,3.0,3.0,5.0,2.0,"3.5 hours plus a half hour
+                        for  lunch",1745.0
+https://www.hikingupward.com/GWNF/FridleyGap/,Fridley Gap Hike,GWNF,6.2,4.0,4.0,2.0,5.0,4.0,"4.5 hours 
+                      plus a half hour for lunch",1860.0
+https://www.hikingupward.com/GWNF/GerhardShelter/,Gerhard Shelter Hike,GWNF,10.6,4.0,2.0,4.0,5.0,2.0,"5.5 hours 
+                      plus a half hour for lunch",1890.0
+https://www.hikingupward.com/GWNF/GreatNorthMountain/,Great North Mountain Hike,GWNF,11.7,6.0,3.0,3.0,5.0,2.0,"6.5 hours plus a half hour
+                        for  lunch",2390.0
+https://www.hikingupward.com/GWNF/GroomsRidgeChestnutRidge/,Grooms Ridge/Chestnut Ridge Hike,GWNF,9.2,4.0,2.0,3.0,4.0,2.0,4.5 hours with 1/2 hour for lunch,2570.0
+https://www.hikingupward.com/GWNF/HalfmoonMountain/,Halfmoon Mountain Hike,GWNF,10.6,4.0,4.0,5.0,3.0,4.0,"2 Day backpack or 6 hours total
+                      2,120 ft
+ George 
+                    Washington National Forest
+  Topo Hike Trails Map (PDF)",
+https://www.hikingupward.com/GWNF/HardscrabbleKnob/,Hardscrabble Knob Hike,GWNF,7.0,4.0,0.0,3.0,4.0,4.0,"4.5 hours
+                      plus a half hour for  lunch",2050.0
+https://www.hikingupward.com/GWNF/HiddenRocks/,Hidden Rocks Hike,GWNF,2.5,2.0,2.0,4.0,4.0,2.0,2.0 hours with 30 minutes of breaks,390.0
+https://www.hikingupward.com/GWNF/HiddenValley/,Hidden Valley Hike,GWNF,5.1,2.0,5.0,4.0,3.0,3.0,"3.0 hours
+                        plus a half hour for  lunch",450.0
+https://www.hikingupward.com/GWNF/HighKnobTower/,High Knob Tower Hike,GWNF,2.9,2.0,0.0,5.0,2.0,2.0,2.0 hours,600.0
+https://www.hikingupward.com/GWNF/HighPeak/,High Peak Hike,GWNF,7.0,3.0,1.0,3.0,2.0,2.0,"4 hours plus a half hour 
+                      for lunch",1650.0
+https://www.hikingupward.com/GWNF/HoneQuarryFalls/,Hone Quarry Falls Hike,GWNF,5.0,2.0,4.0,1.0,4.0,5.0,3.5 hours including breaks,660.0
+https://www.hikingupward.com/GWNF/HoneQuarryRidge/,Hone Quarry Ridge Hike,GWNF,5.0,3.0,1.0,3.0,4.0,3.0,3 hours with 1/2 hour for lunch,1480.0
+https://www.hikingupward.com/GWNF/HumpbackRocks/,Humpback Rocks Hike,GWNF,4.0,4.0,1.0,4.0,3.0,0.0,2.5 hours with 1/2 hour for lunch,1240.0
+https://www.hikingupward.com/GWNF/HunkersonGap/,Hunkerson Gap Hike,GWNF,5.8,4.0,1.0,2.0,6.0,1.0,4.5 hours including breaks,1400.0
+https://www.hikingupward.com/GWNF/IndianGraveRidge/,Indian Grave Ridge Hike,GWNF,8.6,3.0,3.0,3.0,5.0,3.0,4.5 hours with half hour for lunch,1470.0
+https://www.hikingupward.com/GWNF/IngalsOverlook/,Ingals Overlook Hike,GWNF,2.4,1.0,0.0,3.0,4.0,0.0,1.0 hours,620.0
+https://www.hikingupward.com/GWNF/JawboneOverlook/,Jawbone Overlook Hike,GWNF,2.5,2.0,0.0,5.0,4.0,3.0,2.0 hours with 1/2 hour for breaks,805.0
+https://www.hikingupward.com/GWNF/JerrysRun/,Jerry's Run Hike,GWNF,8.3,3.0,4.0,4.0,4.0,5.0,6.0 hours with 30 minutes for breaks,1175.0
+https://www.hikingupward.com/GWNF/KennedyPeak/,Kennedy Peak Hike,GWNF,7.0,3.0,0.0,5.0,2.0,2.0,3.5 hours with 30 minutes of breaks,1325.0
+https://www.hikingupward.com/GWNF/KeplerOverlook/,Kepler Overlook Hike,GWNF,6.6,3.0,3.0,5.0,4.0,5.0,3.5 hours plus a half hour for lunch,1185.0
+https://www.hikingupward.com/GWNF/KernsMountain/,Kerns Mountain Hike,GWNF,12.5,5.0,1.0,3.0,4.0,2.0,5.5 hours with 1/2 hour for lunch,2110.0
+https://www.hikingupward.com/GWNF/LakeMoomaw/,Lake Moomaw Hike,GWNF,6.4,3.0,4.0,3.0,3.0,6.0,4.5 hours plus a 1/2 hour for lunch,1260.0
+https://www.hikingupward.com/GWNF/LaurelFork/,Laurel Fork Hike,GWNF,13.0,4.0,5.0,1.0,4.0,3.0,"2 Day Backpack, 8 Hours Total",1650.0
+https://www.hikingupward.com/GWNF/LaurelRunGustyPoint/,Laurel Run/Gusty Point Hike,GWNF,8.8,3.0,1.0,5.0,4.0,4.0,"5 hours plus a half hour for 
+                      lunch",2100.0
+https://www.hikingupward.com/GWNF/LittleBaldKnobRidge/,Little Bald Knob Ridge Hike,GWNF,7.0,3.0,3.0,4.0,4.0,4.0,"4.0 hours
+                      plus a half hour for  lunch",2370.0
+https://www.hikingupward.com/GWNF/LittleCreaseMountain/,Little Crease Mountain Hike,GWNF,8.9,3.0,3.0,3.0,3.0,2.0,4.0 hours including 30 minutes for breaks,1760.0
+https://www.hikingupward.com/GWNF/LittlePassageCreek/,Little Passage Creek Hike,GWNF,10.0,2.0,1.0,2.0,2.0,3.0,"4.5 hours
+                        plus a half hour for lunch",1320.0
+https://www.hikingupward.com/GWNF/LittleSchloss/,Little Schloss Hike,GWNF,5.0,3.0,0.0,5.0,4.0,4.0,"3.0 hours
+                      plus a half hour for  lunch",1110.0
+https://www.hikingupward.com/GWNF/LittleSchloss/,Little Schloss Hike,GWNF,13.2,4.0,3.0,5.0,4.0,5.0,"7.0 hours
+                      plus a half hour for  lunch",1110.0
+https://www.hikingupward.com/GWNF/LittleSluice/,Little Sluice Hike,GWNF,13.0,5.0,1.0,4.0,5.0,4.0,"7.5 hours plus a half hour 
+                      for lunch",2100.0
+https://www.hikingupward.com/GWNF/LongMountain/,Long Mountain Hike,GWNF,9.2,5.0,2.0,3.0,5.0,3.0,"5.5 hours
+                      plus a half hour for  lunch
+                      2,110 ft",
+https://www.hikingupward.com/GWNF/LongMountainRidge/,Long Mountain Ridge Hike,GWNF,6.3,4.0,1.0,5.0,5.0,2.0,"4.0 hours
+                        plus a half hour for  lunch",1480.0
+https://www.hikingupward.com/GWNF/MarshallDraft/,Marshall Draft Hike,GWNF,4.0,3.0,0.0,3.0,6.0,3.0,4.0 hours with 30 minutes of breaks,1600.0
+https://www.hikingupward.com/GWNF/MenekaPeak/,Meneka Peak Hike,GWNF,8.6,3.0,1.0,4.0,3.0,3.0,"4.5 hours 
+                      plus a half hour for lunch",2075.0
+https://www.hikingupward.com/GWNF/MiddleMountain/,Middle Mountain Hike,GWNF,8.8,3.0,3.0,3.0,5.0,0.0,5.0 hours including time for lunch,1850.0
+https://www.hikingupward.com/GWNF/MillMountain/,Mill Mountain Hike,GWNF,11.8,5.0,4.0,5.0,3.0,4.0,"7.5 hours plus a half hour 
+                      for lunch",2340.0
+https://www.hikingupward.com/GWNF/MillsCreek/,Mills Creek Hike,GWNF,14.9,4.0,3.0,3.0,3.0,4.0,9 hours over 2 days,2750.0
+https://www.hikingupward.com/GWNF/MorganRun/,Morgan Run Hike,GWNF,9.0,3.0,4.0,2.0,5.0,4.0,"5.5 hours 
+                      plus a half hour for lunch",1850.0
+https://www.hikingupward.com/GWNF/MountPleasant/,Mount Pleasant Hike,GWNF,5.5,3.0,0.0,5.0,2.0,3.0,"3.5 hours
+                      plus a half hour for  lunch",1350.0
+https://www.hikingupward.com/GWNF/MudholeGap/,Mudhole Gap Hike,GWNF,11.6,4.0,3.0,2.0,4.0,3.0,"5.5 hours
+                        with a break for lunch",1740.0
+https://www.hikingupward.com/GWNF/NorthMountainPetesCave/,North Mountain/Pete's Cave Hike,GWNF,6.8,2.0,0.0,6.0,4.0,1.0,"4 hours, including time spent enjoying the glorious  views",1154.0
+https://www.hikingupward.com/GWNF/NorthRiverGorge/,North River Gorge Hike,GWNF,12.5,4.0,5.0,3.0,3.0,3.0,6 hours with 1/2 hour for lunch,2070.0
+https://www.hikingupward.com/GWNF/NutmegPoint/,Nutmeg Point Hike,GWNF,4.0,2.0,0.0,3.0,5.0,2.0,2.5 hours including breaks,410.0
+https://www.hikingupward.com/GWNF/OakKnob/,Oak Knob Hike,GWNF,7.9,4.0,1.0,4.0,4.0,2.0,5.5 hours with 1/2 hour for lunch,2250.0
+https://www.hikingupward.com/GWNF/OtterCreek/,Otter Creek Hike,GWNF,7.4,3.0,5.0,2.0,3.0,0.0,"3.5 hours 
+                      plus a half hour for lunch",640.0
+https://www.hikingupward.com/GWNF/PinnacleShelter/,Pinnacle Shelter Hike,GWNF,18.6,4.0,0.0,5.0,4.0,3.0,10.0 hours with breaks,2900.0
+https://www.hikingupward.com/GWNF/RamseysDraft/,Ramsey's Draft Hike,GWNF,16.8,5.0,5.0,3.0,4.0,5.0,2 Days,3170.0
+https://www.hikingupward.com/GWNF/ReddishKnob/,Reddish Knob Hike,GWNF,18.2,6.0,1.0,4.0,4.0,0.0,8 hours with breaks,3650.0
+https://www.hikingupward.com/GWNF/RichHole/,Rich Hole Hike,GWNF,12.3,4.0,5.0,3.0,5.0,2.0,6.5 hours including time for lunch,3200.0
+https://www.hikingupward.com/GWNF/RiddlesCut/,Riddle's Cut Hike,GWNF,5.8,4.0,1.0,3.0,5.0,2.0,4.0 hours including breaks,1450.0
+https://www.hikingupward.com/GWNF/RoaringRun/,Roaring Run Hike,GWNF,10.5,4.0,3.0,3.0,5.0,5.0,"6.0 hours 
+                      plus a half hour for lunch",2360.0
+https://www.hikingupward.com/GWNF/SaltlogGapLoop/,Saltlog Gap Hike,GWNF,7.4,3.0,2.0,3.0,4.0,1.0,4.0 hours with breaks,1700.0
+https://www.hikingupward.com/GWNF/ShawlGap/,Shawl Gap Hike,GWNF,8.9,3.0,1.0,3.0,3.0,2.0,"5 hours plus a half hour 
+                      for lunch",1740.0
+https://www.hikingupward.com/GWNF/ShenandoahMountain/,Shenandoah Mountain Hike,GWNF,18.2,5.0,5.0,3.0,4.0,5.0,"2 Days - Day One - 7 hours, Day Two – 3.5 hours",2811.0
+https://www.hikingupward.com/GWNF/ShenandoahMountainLynnSpring/,Shenandoah Mountain/Lynn Spring Hike,GWNF,14.8,3.0,0.0,2.0,4.0,4.0,2 Day Backpack,2600.0
+https://www.hikingupward.com/GWNF/SignalKnob/,Signal Knob Hike,GWNF,9.9,4.0,2.0,5.0,3.0,4.0,"5.0 hours 
+                      plus a half hour for lunch",2680.0
+https://www.hikingupward.com/GWNF/SlabcampRunLocustSpring/,Slabcamp Run/Locust Spring Hike,GWNF,9.4,4.0,5.0,1.0,5.0,4.0,"2 Day Backpack, 6 Hours Total",1450.0
+https://www.hikingupward.com/GWNF/StMarysWilderness/,St. Mary's Wilderness Hike,GWNF,10.1,4.0,2.0,3.0,3.0,3.0,6.0 hrs plus a half hour for lunch,
+https://www.hikingupward.com/GWNF/StMarysWilderness/,St. Mary's Wilderness Hike,GWNF,15.5,5.0,4.0,3.0,2.0,3.0,9.0 hrs plus a half hour for lunch,
+https://www.hikingupward.com/GWNF/StricklerKnob/,Strickler Knob Hike,GWNF,5.8,4.0,1.0,6.0,3.0,5.0,4.0 hours with breaks,1050.0
+https://www.hikingupward.com/GWNF/SugarKnob/,Sugar Knob Hike,GWNF,11.2,3.0,5.0,2.0,3.0,5.0,"6 hours plus a half hour for 
+                      lunch",2070.0
+https://www.hikingupward.com/GWNF/SulphurSpringsGapWhiteRockCliff/,Sulphur Springs Gap/White Rock Cliff Hike,GWNF,7.0,4.0,3.0,4.0,4.0,4.0,4.5 hours including breaks,1570.0
+https://www.hikingupward.com/GWNF/TarJacketRidge/,Tar Jacket Ridge Hike,GWNF,14.9,4.0,2.0,5.0,3.0,5.0,8 hours over 2 days,3150.0
+https://www.hikingupward.com/GWNF/ThePriest/,The Priest Hike,GWNF,8.6,5.0,3.0,5.0,2.0,4.0,6.0 hours with breaks,3117.0
+https://www.hikingupward.com/GWNF/ThreeRidges/,Three Ridges Hike,GWNF,14.4,5.0,4.0,5.0,2.0,5.0,"2 Days: 5.0hrs-7.3mls Day1, 4.5hrs-7.1mls Day2",4290.0
+https://www.hikingupward.com/GWNF/ThreeTopMountain/,Three Top Mountain Hike,GWNF,7.6,2.0,1.0,2.0,3.0,2.0,"4 hours
+                        plus a half hour for lunch",780.0
+https://www.hikingupward.com/GWNF/TibbetKnob/,Tibbet Knob Hike,GWNF,3.1,2.0,0.0,5.0,3.0,3.0,"2 hours plus a half hour for 
+                      lunch",830.0
+https://www.hikingupward.com/GWNF/TorryRidgeWhiteRockFalls/,Torry Ridge/White Rock Falls Hike,GWNF,9.1,4.0,3.0,4.0,3.0,1.0,5.5 hours plus a 1/2 hour for lunch,1700.0
+https://www.hikingupward.com/GWNF/Tri-County/,Tri-County Hike,GWNF,8.6,4.0,0.0,3.0,4.0,3.0,5.5 hours with 30 minutes of breaks,1660.0
+https://www.hikingupward.com/GWNF/TrimbleMountain/,Trimble Mountain Hike,GWNF,4.0,3.0,1.0,3.0,4.0,0.0,3.0 hours with 1/2 hour for lunch,1050.0
+https://www.hikingupward.com/GWNF/TroutPond/,Trout Pond Hike,GWNF,9.4,4.0,1.0,4.0,2.0,5.0,"4.5 hours
+                      plus a half hour for  lunch",1660.0
+https://www.hikingupward.com/GWNF/VeachGapSouthForkOverlook/,Veach Gap/South Fork Overlook Hike,GWNF,7.0,3.0,2.0,4.0,3.0,2.0,"4 hours
+                        plus a half hour for lunch",1050.0
+https://www.hikingupward.com/GWNF/VeachGapThreeDogPoint/,Veach Gap/Three Dog Point Hike,GWNF,4.8,3.0,2.0,3.0,5.0,3.0,3.5 hours including breaks,1027.0
+https://www.hikingupward.com/GWNF/Wintergreen/,Wintergreen Hike,GWNF,13.2,6.0,3.0,5.0,3.0,0.0,8.5 hours plus a 1/2 hour for lunch,4008.0
+https://www.hikingupward.com/GWNF/WhetstoneRidge/,Whetstone Ridge Hike,GWNF,12.2,5.0,1.0,4.0,4.0,1.0,6.0 hours with 30 minutes of breaks,1900.0
+https://www.hikingupward.com/GWNF/WhiteRockCliff/,White Rock Cliff Hike,GWNF,9.8,3.0,3.0,4.0,4.0,5.0,"4.5 hours
+                        plus a half hour for  lunch",1840.0
+https://www.hikingupward.com/GWNF/Wintergreen/,Wintergreen Hike,GWNF,13.2,6.0,3.0,5.0,3.0,0.0,8.5 hours plus a 1/2 hour for lunch,4008.0
+https://www.hikingupward.com/GWNF/WoodstockTower/,Woodstock Tower Hike,GWNF,2.0,2.0,0.0,5.0,2.0,0.0,1.5 hours with 1/2 hour for lunch,510.0
+https://www.hikingupward.com/GSMNP/ClingmansDome/,Clingmans Dome Hike,GSMNP,9.0,3.0,0.0,5.0,1.0,1.0,4 hours and 45 minutes with 55 minutes of breaks,
+https://www.hikingupward.com/GSMNP/DeepCreek/,Deep Creek Hike,GSMNP,5.2,2.0,5.0,1.0,1.0,3.0,2 hours and 30  minutes with 30 minutes of breaks,
+https://www.hikingupward.com/GSMNP/HemphillBald/,Hemphill Bald Hike,GSMNP,9.6,3.0,0.0,4.0,2.0,0.0,Hemphill Bald,
+https://www.hikingupward.com/GSMNP/HemphillBald/,Hemphill Bald Hike,GSMNP,13.0,4.0,0.0,4.0,2.0,0.0,Gooseberry Knob at The Swag,
+https://www.hikingupward.com/GSMNP/MountSterling/,Mount Sterling Hike,GSMNP,5.5,3.0,0.0,5.0,3.0,4.0,3 hours and 30  minutes with 1 hour of breaks,1955.0
+https://www.hikingupward.com/GSMNP/MtCammererBigCreek/,Mt. Cammerer and Big Creek Hike,GSMNP,17.8,5.0,4.0,4.0,2.0,3.0,8 hours with 1  hour of breaks or 2 days for backpacking,
+https://www.hikingupward.com/GSMNP/MtLeConte/,Mount LeConte Hike,GSMNP,4.6,2.0,2.0,4.0,0.0,0.0,Alum Cave Bluffs,
+https://www.hikingupward.com/GSMNP/MtLeConte/,Mount LeConte Hike,GSMNP,12.4,5.0,2.0,6.0,1.0,1.0,Mount LeConte,
+https://www.hikingupward.com/GSMNP/ShuckstackLookoutTower/,Shuckstack Lookout Tower Hike,GSMNP,6.7,4.0,0.0,6.0,1.0,0.0,3 hours and 30 minutes with 45 minutes of breaks,
+https://www.hikingupward.com/JNF/AngelsRestWoodsHoleHostel/,Angels Rest - Woods Hole Hostel Hike,JNF,26.0,5.0,1.0,4.0,3.0,3.0,"Day 1 - 6 hours, Day 2 - 6 hours",4789.0
+https://www.hikingupward.com/JNF/AppleOrchardFalls/,Apple Orchard Falls Hike,JNF,5.6,3.0,6.0,1.0,3.0,4.0,4.5 hrs plus a half hour for lunch,
+https://www.hikingupward.com/JNF/BalconyFalls/,Balcony Falls Hike,JNF,11.5,5.0,2.0,4.0,4.0,3.0,5.5 hours with breaks,2400.0
+https://www.hikingupward.com/JNF/CarvinCoveHayRock/,Carvin Cove/Hay Rock,JNF,8.0,4.0,4.0,4.0,3.0,0.0,"3.5 hours
+                      plus a half hour for  lunch",1640.0
+https://www.hikingupward.com/JNF/TheCascadesBarneysWall/,The Cascades/Barney's Wall Hike,JNF,8.4,3.0,5.0,4.0,1.0,1.0,"5.0 hours
+                      plus a half hour for  lunch",1600.0
+https://www.hikingupward.com/JNF/CoveMountain/,Cove Mountain Hike,JNF,7.5,3.0,2.0,4.0,4.0,2.0,4 hours with 30  minutes of breaks,1950.0
+https://www.hikingupward.com/JNF/DevilsBathtub/,Devils Bathtub Hike,JNF,3.6,2.0,5.0,0.0,1.0,1.0,2 hours with half hour for lunch.,
+https://www.hikingupward.com/JNF/DevilsMarbleyard/,Devil's Marbleyard Hike,JNF,8.3,3.0,1.0,4.0,3.0,3.0,"5.5 hours
+                      plus a half hour for  lunch",1510.0
+https://www.hikingupward.com/JNF/DevilsMarbleyard/,Devil's Marbleyard Hike,JNF,11.3,4.0,1.0,5.0,4.0,3.0,"6.5 hours
+                      plus a half hour for  lunch",1510.0
+https://www.hikingupward.com/JNF/DragonsTooth/,Dragon's Tooth Hike,JNF,5.7,4.0,1.0,5.0,2.0,0.0,"3.5 hours
+                      plus a half hour for  lunch",1505.0
+https://www.hikingupward.com/JNF/ElkGardenBuzzardRock/,Elk Garden to Buzzard Rock Hike,JNF,7.2,3.0,0.0,5.0,4.0,3.0,4 hours with 30  minutes of breaks,1095.0
+https://www.hikingupward.com/JNF/GreatChannels/,Great Channels Hike,JNF,6.6,3.0,0.0,2.0,3.0,1.0,4 hours with half hour for lunch.,
+https://www.hikingupward.com/JNF/HangingRock/,Hanging Rock Hike,JNF,7.3,3.0,2.0,5.0,5.0,1.0,4 hours with  breaks,1435.0
+https://www.hikingupward.com/JNF/HangingRockObservatory/,Hanging Rock Observatory Hike,JNF,4.2,2.0,0.0,5.0,2.0,3.0,2.5 hours with half hour for lunch,850.0
+https://www.hikingupward.com/JNF/HighKnobChiefBenge/,High Knob Peak/Chief Benges Scout Trail Hike,JNF,4.3,3.0,3.0,4.0,3.0,1.0,2.5 hours with half hour for lunch,950.0
+https://www.hikingupward.com/JNF/HoopHole/,Hoop Hole Hike,JNF,9.7,4.0,2.0,1.0,3.0,3.0,"5.5 hours
+                      plus a half hour for  lunch",2270.0
+https://www.hikingupward.com/JNF/KellyKnob/,Kelly Knob Hike,JNF,9.4,4.0,2.0,4.0,3.0,3.0,5 hours with a stop for lunch at the overlook,2220.0
+https://www.hikingupward.com/JNF/LittleWilsonCreekWilderness/,Little Wilson Creek Wilderness,JNF,13.1,5.0,3.0,4.0,5.0,4.0,7  hours with 1 hours and 40 minutes break time,2247.0
+https://www.hikingupward.com/JNF/McAfeeKnob/,McAfee Knob Hike,JNF,7.8,3.0,0.0,5.0,1.0,3.0,"4.0 hours
+                      plus a half hour for  lunch",1740.0
+https://www.hikingupward.com/JNF/MountainLakeWilderness/,Mountain Lake Wilderness Hike,JNF,9.3,3.0,0.0,3.0,4.0,2.0,4 hours with 30  minutes of breaks,1560.0
+https://www.hikingupward.com/JNF/MtRogersElkRidge/,Mt Rogers/Elk Ridge Hike,JNF,12.1,5.0,4.0,5.0,3.0,4.0,7 hours with half hour for lunch,
+https://www.hikingupward.com/JNF/MtRogersGraysonHighlands/,Mt Rogers/Grayson Highlands,JNF,39.6,5.0,3.0,5.0,3.0,5.0,3 Days,6600.0
+https://www.hikingupward.com/JNF/MtRogersWilburnRidge/,Mt Rogers/Wilburn Ridge Hike,JNF,21.5,5.0,3.0,6.0,3.0,5.0,2.5 Days,
+https://www.hikingupward.com/JNF/NorthMountainTrail/,North Mountain Trail Hike,JNF,12.2,4.0,1.0,2.0,4.0,5.0,7.0 hours with half hour for lunch,3350.0
+https://www.hikingupward.com/JNF/PineyRidge/,Piney Ridge Hike,JNF,12.8,5.0,1.0,4.0,4.0,3.0,6 hours with breaks,3230.0
+https://www.hikingupward.com/JNF/TerrapinMountain/,Terrapin Mountain Hike,JNF,10.1,4.0,2.0,4.0,5.0,1.0,5 hours and 40  minutes with 1 hour and 30 minutes of breaks,2658.0
+https://www.hikingupward.com/JNF/TinkerCliffsAndyLayneTrail/,Tinker Cliffs/Andy Layne Trail,JNF,7.7,4.0,3.0,4.0,3.0,0.0,"3.5 hours
+                      plus a half hour for  lunch",1945.0
+https://www.hikingupward.com/JNF/WilburnRidgePineMountain/,Wilburn Ridge/Pine Mountain,JNF,14.2,4.0,1.0,6.0,3.0,5.0,"7.0 hours
+                      plus a 1 hour for  lunch",2225.0
+https://www.hikingupward.com/MNF/AlleghenySenecaCreek/,Allegheny/Seneca Creek Hike,MNF,12.7,4.0,5.0,1.0,3.0,5.0,"2 Days. 7 hours 1st day, 2 hours 2nd day",1610.0
+https://www.hikingupward.com/MNF/BigRunLeadingRidge/,Big Run/Leading Ridge Hike,MNF,11.4,3.0,4.0,2.0,5.0,5.0,"2 Days. 1st Day 5 hours, 2nd Day 3.5 hours",700.0
+https://www.hikingupward.com/MNF/BlackbirdKnob/,Blackbird Knob Hike,MNF,14.6,4.0,5.0,5.0,2.0,4.0,7.5 hours with half hour for lunch,
+https://www.hikingupward.com/MNF/BlueBend/,Blue Bend Hike,MNF,5.5,3.0,3.0,4.0,4.0,3.0,3 hours with breaks,1503.0
+https://www.hikingupward.com/MNF/CanaanMountainTableRock/,Canaan Mountain/Table Rock Hike,MNF,18.0,5.0,3.0,5.0,3.0,5.0,"2 Days - Day One: 5.5 hours, Day Two: 4.5 hours",
+https://www.hikingupward.com/MNF/ChimneyTop/,Chimney Top Hike,MNF,5.4,4.0,0.0,6.0,3.0,3.0,4.5 hours with 1 hour of breaks,1960.0
+https://www.hikingupward.com/MNF/CranberryRiver/,Cranberry River Hike,MNF,18.9,5.0,5.0,1.0,3.0,5.0,"2 Days: 6.0hrs-9.0mls Day1, 6.5hrs-9.9mls Day2",2250.0
+https://www.hikingupward.com/MNF/DollySodsLionsHead/,Dolly Sods/Lions Head Hike,MNF,21.1,3.0,5.0,5.0,3.0,5.0,2 or 3 days,
+https://www.hikingupward.com/MNF/DollySodsNorth/,Dolly Sods North Hike,MNF,11.9,3.0,2.0,5.0,3.0,2.0,"6.0 hours 
+                      plus a half hour for lunch",1050.0
+https://www.hikingupward.com/MNF/ForksOfCranberry/,Forks of Cranberry Hike,MNF,13.3,5.0,4.0,1.0,5.0,4.0,"8.0 hours, including a lunch break.",2000.0
+https://www.hikingupward.com/MNF/ForksRedCreek/,Forks of Red Creek Hike,MNF,10.6,3.0,5.0,5.0,3.0,3.0,6.5 hrs plus a half hour for lunch,
+https://www.hikingupward.com/MNF/GauleyMountainTeaCreek/,Gauley Mountain/Tea Creek Hike,MNF,13.5,4.0,6.0,2.0,4.0,2.0,"8.0 hours, including a lunch break",1600.0
+https://www.hikingupward.com/MNF/HighFalls/,High Falls Hike,MNF,8.2,3.0,3.0,2.0,4.0,2.0,"4.5 hours 
+                      plus a half hour for lunch",1440.0
+https://www.hikingupward.com/MNF/HighMeadowsSenecaCreek/,High Meadows/Seneca Creek Hike,MNF,13.5,4.0,5.0,4.0,3.0,5.0,"2 Days. 6 hours 1st day, 2 hours 2nd day",1210.0
+https://www.hikingupward.com/MNF/LakeSherwood/,Lake Sherwood Hike,MNF,13.0,3.0,2.0,3.0,5.0,2.0,7.5 hours,1035.0
+https://www.hikingupward.com/MNF/LaurelForkSouthWilderness/,Laurel Fork South Wilderness Hike,MNF,6.0,4.0,5.0,2.0,5.0,4.0,3.5 hours with breaks,900.0
+https://www.hikingupward.com/MNF/MiddleForkBigBeechy/,Middle Fork/Big Beechy Hike,MNF,16.7,3.0,5.0,1.0,5.0,6.0,2 days. Day 1: 5.0 hours. Day 2: 4.5 hours.,
+https://www.hikingupward.com/MNF/NorthProngBigRun/,North Prong/Big Run Hike,MNF,7.1,3.0,5.0,2.0,5.0,1.0,4.0 hours with 1/2 hour for breaks,800.0
+https://www.hikingupward.com/MNF/RoaringPlains/,Roaring Plains Hike,MNF,10.2,3.0,1.0,6.0,4.0,5.0,2 day backpack,810.0
+https://www.hikingupward.com/MNF/RohrbaughCliffs/,Rohrbaugh Cliffs Hike,MNF,5.2,2.0,2.0,5.0,3.0,3.0,3.5 hours with breaks,
+https://www.hikingupward.com/MNF/SenecaRocks/,Seneca Rocks Hike,MNF,3.7,3.0,2.0,5.0,0.0,0.0,2.5 hours with 1/2 hour of breaks,800.0
+https://www.hikingupward.com/MNF/SmokeCampKnob/,Smoke Camp Knob Hike,MNF,4.5,3.0,3.0,4.0,5.0,0.0,3.0 hours with breaks,1300.0
+https://www.hikingupward.com/MNF/SpruceKnobSenecaCreek/,Spruce Knob/Seneca Creek Hike,MNF,16.5,4.0,5.0,6.0,3.0,6.0,"2 Days. 6 hours 1st day, 3 hours 2nd day",2310.0
+https://www.hikingupward.com/MNF/TeaCreek/,Tea Creek Hike,MNF,11.7,5.0,5.0,2.0,4.0,2.0,7.0 hours with breaks,1700.0
+https://www.hikingupward.com/MNF/TumblingRock/,Tumbling Rock Hike,MNF,16.6,4.0,4.0,1.0,3.0,5.0,2 day backpack,2030.0
+https://www.hikingupward.com/MNF/TwoLickLoopTrail/,Two Lick Loop Trail Hike,MNF,5.0,2.0,2.0,2.0,5.0,2.0,2.0 hours with breaks,830.0
+https://www.hikingupward.com/NNF/AlbertMountainLookoutTower/,Albert Mountain Lookout Tower Hike,NNF,5.8,3.0,1.0,4.0,4.0,1.0,3 hours and 45  minutes with 1 hour of breaks,1635.0
+https://www.hikingupward.com/NNF/CheoahBald/,Cheoah Bald Hike,NNF,9.9,6.0,3.0,4.0,5.0,4.0,5 hours and 30  minutes with 1 hour of breaks,3460.0
+https://www.hikingupward.com/NNF/CoweeBaldLookoutTower/,Cowee Bald Lookout Tower Hike,NNF,1.1,1.0,0.0,2.0,6.0,0.0,30 minutes with  10 minutes of breaks,145.0
+https://www.hikingupward.com/NNF/HooperBald/,Hooper Bald Hike,NNF,1.3,1.0,0.0,3.0,2.0,4.0,35 minutes,100.0
+https://www.hikingupward.com/NNF/HuckleberryKnob/,Huckleberry Knob Hike,NNF,1.8,1.0,0.0,6.0,2.0,4.0,1 hour and 10 minutes with 30 minutes of breaks,370.0
+https://www.hikingupward.com/NNF/JoannaBaldLookoutTower/,Joanna Bald Lookout Tower Hike,NNF,0.9,1.0,0.0,1.0,6.0,0.0,45 minutes with  10 minutes of breaks,175.0
+https://www.hikingupward.com/NNF/PantherTopLookoutTower/,Panther Top Lookout Tower Hike,NNF,1.5,1.0,0.0,5.0,4.0,0.0,45 minutes with  15 minutes of breaks,410.0
+https://www.hikingupward.com/NNF/StandingIndian/,Standing Indian Hike,NNF,11.3,4.0,2.0,3.0,4.0,3.0,6 hours with 1  hour of breaks,2480.0
+https://www.hikingupward.com/NNF/TheHangover/,The Hangover Hike,NNF,18.7,5.0,0.0,5.0,3.0,6.0,2-3 days of  backpacking,6140.0
+https://www.hikingupward.com/NNF/WayahBald/,Wayah Bald Hike,NNF,9.1,3.0,0.0,3.0,1.0,5.0,4 hours and 15  minutes with 45 minutes of breaks,2.025
+https://www.hikingupward.com/NNF/WesserBald/,Wesser Bald Hike,NNF,13.3,5.0,0.0,6.0,2.0,4.0,7 hours with 1  hour and 30 minutes of breaks,4000.0
+https://www.hikingupward.com/NNF/YellowMountainLookoutTower/,Yellow Mountain Lookout Tower Hike,NNF,12.5,5.0,0.0,3.0,4.0,1.0,6 hours with 1  hour of breaks,3020.0
+https://www.hikingupward.com/PNF/BabelTower/,Babel Tower Hike,PNF,3.5,4.0,3.0,5.0,3.0,3.0,2 hours and 40  minutes with 50 minutes of breaks,1515.0
+https://www.hikingupward.com/PNF/BaldKnobRidgePinnacle/,Bald Knob Ridge Trail To Pinnacle Hike,PNF,7.2,3.0,0.0,5.0,6.0,1.0,3 hours and 45  minutes with 45 minutes of breaks,1780.0
+https://www.hikingupward.com/PNF/BigBald/,Big Bald Hike,PNF,13.1,4.0,0.0,5.0,2.0,4.0,6 hours and 30  minutes with 1 hour and 15 minutes of breaks,3270.0
+https://www.hikingupward.com/PNF/BigButtTrail/,Big Butt Trail Hike,PNF,15.5,6.0,0.0,4.0,4.0,1.0,8 hours and 30  minutes with 2 hours of breaks,4365.0
+https://www.hikingupward.com/PNF/BigFirescaldKnob/,Big Firescald Knob Hike,PNF,3.0,2.0,3.0,0.0,5.0,0.0,West Prong  Hickey Fork Falls,
+https://www.hikingupward.com/PNF/BigFirescaldKnob/,Big Firescald Knob Hike,PNF,15.7,5.0,2.0,5.0,5.0,4.0,"Camp Creek Bald,  Blackstack Cliffs, and Big Firescald Knob",
+https://www.hikingupward.com/PNF/BlackMountainCrestTrail/,Black Mountain Crest Trail Hike,PNF,12.1,6.0,0.0,6.0,3.0,3.0,"7 hours and 45 minutes with 1 hour and 45 minutes of breaks,  or 2-3 days backpacking",
+https://www.hikingupward.com/PNF/CatawbaFalls/,Catawba Falls Hike,PNF,3.0,1.0,6.0,0.0,2.0,0.0,Lower Catawba Falls and Catawba Falls,
+https://www.hikingupward.com/PNF/CatawbaFalls/,Catawba Falls Hike,PNF,3.9,5.0,6.0,0.0,4.0,0.0,Upper Catawba Falls,
+https://www.hikingupward.com/PNF/ColbertRidgeBuncombeHorseRange/,Colbert Ridge Trail and Buncombe Horse Range Trail Hike,PNF,13.6,6.0,1.0,4.0,4.0,4.0,"9 hours and 30  minutes with 2 hours of breaks, or 2 days of backpacking",4290.0
+https://www.hikingupward.com/PNF/ColdMountain/,Cold Mountain Hike,PNF,10.4,5.0,0.0,4.0,3.0,4.0,6 hours with 1  hour of breaks,3360.0
+https://www.hikingupward.com/PNF/CoveCreekFalls/,Cove Creek Falls Hike,PNF,2.5,2.0,3.0,0.0,1.0,0.0,1 hour and 20  minutes with 15 minutes of breaks,470.0
+https://www.hikingupward.com/PNF/DevilsCourthouseBlackBalsamKnobSamKnob/,Devils Courthouse/Sam Knob Hike,PNF,12.1,4.0,2.0,6.0,1.0,6.0,7 hours and 30  minutes with 2 hours and 15 minutes of breaks,2205.0
+https://www.hikingupward.com/PNF/DouglasFallsCraggyGardens/,Douglas Falls and Craggy Gardens,PNF,11.3,5.0,3.0,4.0,2.0,1.0,7 hours and 30  minutes with 2 hours of breaks,3040.0
+https://www.hikingupward.com/PNF/FryingpanMountain/,Fryingpan Mountain Hike,PNF,1.7,2.0,0.0,5.0,1.0,0.0,1 hour with 15  minutes of breaks,375.0
+https://www.hikingupward.com/PNF/GrassyCreekFalls/,Grassy Creek Falls Hike,PNF,1.7,2.0,3.0,0.0,2.0,0.0,60  minutes,370.0
+https://www.hikingupward.com/PNF/GreenKnobLookoutTower/,Green Knob Lookout Tower Hike,PNF,5.9,4.0,0.0,4.0,4.0,0.0,3 hours and 30  minutes with 50 minutes of breaks,2070.0
+https://www.hikingupward.com/PNF/HarperCreekFalls/,Harper Creek Falls and South Harper Creek Falls Hike,PNF,10.9,5.0,6.0,2.0,3.0,6.0,7 hours with 1  hour and 45 minutes of breaks,2425.0
+https://www.hikingupward.com/PNF/HawksbillMtnSittingBearMtnDevilsHole/,"Hawksbill Mountain, Sitting Bear Mountain & Devil’s Hole Hike",PNF,,,0.0,0.0,,0.0,,
+https://www.hikingupward.com/PNF/HawksbillMtnSittingBearMtnDevilsHole/,"Hawksbill Mountain, Sitting Bear Mountain & Devil’s Hole Hike",PNF,8.5,5.0,3.0,5.0,3.0,5.0,Combined Hikes,
+https://www.hikingupward.com/PNF/JohnRockCedarRockFalls/,John Rock and Cedar Rock Falls Hike,PNF,5.9,3.0,3.0,4.0,1.0,6.0,3 hours and 30  minutes with 45 minutes of breaks,1136.0
+https://www.hikingupward.com/PNF/KitsumaPeakPointLookout/,Kitsuma Peak and Point Lookout Hike,PNF,10.2,3.0,0.0,3.0,1.0,0.0,4 hours and 30  minutes with 45 minutes of breaks,1825.0
+https://www.hikingupward.com/PNF/LanePinnacle/,Lane Pinnacle Hike,PNF,11.1,4.0,0.0,3.0,3.0,0.0,5 hours and 30  minutes with 1 hour of breaks,
+https://www.hikingupward.com/PNF/LittleFallBranchFalls/,Little Fall Branch Falls Hike,PNF,0.6,1.0,3.0,0.0,4.0,0.0,30  minutes,135.0
+https://www.hikingupward.com/PNF/LittleLostCoveCliffs/,Little Lost Cove Cliffs Hike,PNF,1.8,2.0,0.0,4.0,4.0,3.0,1 hour and 15 minutes with 20 minutes of breaks,525.0
+https://www.hikingupward.com/PNF/MapleCampBald/,Maple Camp Bald Hike,PNF,8.0,4.0,0.0,6.0,3.0,5.0,5 hours with 1  hour of breaks,1675.0
+https://www.hikingupward.com/PNF/MaxPatch/,Max Patch Hike,PNF,7.1,3.0,0.0,6.0,2.0,4.0,3 hours and 30  minutes with 45 minutes of breaks,2061.0
+https://www.hikingupward.com/PNF/MiddleProngWilderness/,Middle Prong Wilderness Hike,PNF,18.8,6.0,5.0,5.0,5.0,5.0,14 hours spread  out over 2 days of backpacking,4181.0
+https://www.hikingupward.com/PNF/MountPisgah/,Mount Pisgah Hike,PNF,2.9,3.0,0.0,5.0,0.0,0.0,1 hour and 45  minutes with 15 minutes of breaks,890.0
+https://www.hikingupward.com/PNF/MtMitchell/,Mount Mitchell Trail Hike,PNF,12.0,5.0,0.0,5.0,3.0,3.0,6.0 hrs with 1.5 hrs for breaks,
+https://www.hikingupward.com/PNF/NorthHarperCreekFalls/,North Harper Creek Falls Hike,PNF,7.3,3.0,5.0,1.0,3.0,6.0,4 hours with 1 hour of breaks,1200.0
+https://www.hikingupward.com/PNF/OldButtKnobShiningCreek/,Old Butt Knob Trail and Shining Creek Trail Loop Hike,PNF,11.9,6.0,2.0,6.0,3.0,6.0,8 hours with 2  hours of breaks,3410.0
+https://www.hikingupward.com/PNF/PilotMountain/,Pilot Mountain Hike,PNF,5.0,4.0,0.0,3.0,2.0,4.0,3 hours and 15  minutes with 50 minutes of breaks,1810.0
+https://www.hikingupward.com/PNF/PinchInRockJockLinvilleGorge/,Pinch In Trail and Rock Jock Trail Hike,PNF,11.1,6.0,3.0,4.0,5.0,4.0,7.5 hrs plus 1.5 hrs for breaks,
+https://www.hikingupward.com/PNF/PinnacleRockyKnobWalkersKnob/,"Pinnacle, Rocky Knob & Walkers Knob Hike",PNF,16.6,5.0,3.0,4.0,4.0,2.0,7  hours and 15 minutes with 1 hour of breaks,
+https://www.hikingupward.com/PNF/RichMountainLoversLeap/,Rich Mountain Lookout Tower and Lovers Leap Hike,PNF,12.8,5.0,2.0,4.0,3.0,2.0,7 hours with 1  hour and 45 minutes of breaks,3584.0
+https://www.hikingupward.com/PNF/RoanHighlands/,Roan Highlands Hike,PNF,4.7,2.0,0.0,6.0,1.0,4.0,Carver’s Gap to Grassy Ridge Bald,
+https://www.hikingupward.com/PNF/RoanHighlands/,Roan Highlands Hike,PNF,19.3,6.0,0.0,6.0,3.0,6.0,Carver’s Gap to Hump Mountain,
+https://www.hikingupward.com/PNF/RoanMountain/,Roan Mountain Hike,PNF,17.4,5.0,0.0,4.0,2.0,4.0,8 hours and 30  minutes with 1 hour and 15 minutes of breaks,4630.0
+https://www.hikingupward.com/PNF/RoaringForkFalls/,Roaring Fork Falls Hike,PNF,1.5,1.0,5.0,0.0,3.0,0.0,1.0 hrs with 15 minutes for breaks,
+https://www.hikingupward.com/PNF/SetrockCreekFallsSouthToeRiver/,Setrock Creek Falls and South Toe River Hike,PNF,7.2,3.0,3.0,1.0,3.0,1.0,3 hours and 45 minutes with 45 minutes of breaks,1100.0
+https://www.hikingupward.com/PNF/SnowballTrail/,Snowball Trail Hike,PNF,2.8,3.0,0.0,3.0,3.0,1.0,Hawkbill Rock,
+https://www.hikingupward.com/PNF/SnowballTrail/,Snowball Trail Hike,PNF,7.1,4.0,0.0,3.0,4.0,1.0,Little Snowball Lookout Tower,
+https://www.hikingupward.com/PNF/SteelsCreekFalls/,Steels Creek Falls Hike,PNF,7.4,5.0,6.0,1.0,4.0,5.0,6 hours and 30  minutes with 2 hours of breaks,1060.0
+https://www.hikingupward.com/PNF/TomsCreekFalls/,Toms Creek Falls Hike,PNF,0.8,1.0,4.0,0.0,2.0,0.0,30  minutes,140.0
+https://www.hikingupward.com/PNF/UpperCreekFalls/,Upper Creek Falls Hike,PNF,1.7,3.0,5.0,2.0,3.0,0.0,1.5 hrs with 1.0 hrs for breaks,
+https://www.hikingupward.com/PNF/WoodsMountainTrail/,Woods Mountain Trail Hike,PNF,3.0,2.0,0.0,4.0,4.0,1.0,Armstrong Creek  View,
+https://www.hikingupward.com/PNF/WoodsMountainTrail/,Woods Mountain Trail Hike,PNF,12.6,5.0,0.0,3.0,5.0,1.0,Woods Mountan Trail,
+https://www.hikingupward.com/PNF/WoodyRidgeTrail/,Woody Ridge Trail Hike,PNF,10.9,6.0,0.0,5.0,5.0,4.0,7 hours and 30  minutes with 1 hour and 30 minutes of breaks,3905.0
+https://www.hikingupward.com/SNP/AustinFurnaceMountains/,Austin/Furnace Mountains Hike,SNP,13.3,5.0,2.0,5.0,3.0,1.0,"7.0 hours 
+                      plus a half hour for lunch",3045.0
+https://www.hikingupward.com/SNP/BearChurchRock/,Bear Church Rock Hike,SNP,8.5,4.0,5.0,4.0,3.0,3.0,"4.5 hours 
+                      plus a half hour for lunch",2210.0
+https://www.hikingupward.com/SNP/BigDevilsStairs/,Big Devils Stairs Hike,SNP,5.5,2.0,1.0,4.0,2.0,1.0,"3.0 hours 
+                      plus a half hour for lunch",1055.0
+https://www.hikingupward.com/SNP/BigRun/,Big Run Hike,SNP,5.9,3.0,1.0,2.0,4.0,0.0,"2.5 hours 
+                      plus a half hour for lunch",1405.0
+https://www.hikingupward.com/SNP/BroadHollow/,Broad Hollow Hike,SNP,6.7,3.0,2.0,2.0,4.0,1.0,"4.0 hours 
+                      plus a half hour for lunch",1640.0
+https://www.hikingupward.com/SNP/BrownMountain/,Brown Mountain Hike,SNP,10.3,4.0,3.0,4.0,3.0,4.0,"6.0 hours, including a stop for lunch along Big Run",2600.0
+https://www.hikingupward.com/SNP/BuckHollowMarysRock/,Buck Hollow / Mary's Rock Hike,SNP,9.0,4.0,3.0,4.0,2.0,2.0,"5.0 hours 
+                      plus a half hour for lunch",2600.0
+https://www.hikingupward.com/SNP/CalfMountain/,Calf Mountain Hike,SNP,15.8,3.0,0.0,4.0,3.0,4.0,"9.0 hours 
+                      over 2 days",2770.0
+https://www.hikingupward.com/SNP/CampHoover/,Camp Hoover Hike,SNP,7.6,3.0,3.0,1.0,2.0,1.0,"4.5 hours 
+                      plus a half hour for lunch",1320.0
+https://www.hikingupward.com/SNP/CatlettMountain/,Catlett Mountain Hike,SNP,10.5,4.0,3.0,1.0,4.0,2.0,"5.5 hours 
+                      plus a half hour for lunch",2010.0
+https://www.hikingupward.com/SNP/CedarRun/,Cedar Run Hike,SNP,3.4,3.0,5.0,1.0,2.0,1.0,"4.5 hours 
+                      plus a half hour for lunch",1510.0
+https://www.hikingupward.com/SNP/ChesterGapJenkinsGap/,Chester Gap to Jenkins Gap Hike,SNP,8.5,4.0,1.0,4.0,3.0,1.0,"4.5 hours 
+                      plus a half hour for lunch",2475.0
+https://www.hikingupward.com/SNP/CorbinCabin/,Corbin Cabin Hike,SNP,4.5,3.0,2.0,1.0,2.0,2.0,"3 hours 
+                      plus a half hour for lunch",1240.0
+https://www.hikingupward.com/SNP/CorbinMountain/,Corbin Mountain Hike,SNP,11.0,4.0,4.0,1.0,3.0,2.0,"6.0 hours 
+                      plus a half hour for lunch",2370.0
+https://www.hikingupward.com/SNP/DickeyRidge/,Dickey Ridge Hike,SNP,5.3,2.0,0.0,3.0,2.0,0.0,3 hours with 30 minutes of break,
+https://www.hikingupward.com/SNP/DoubleBearRocks/,Double Bear Rocks Hike,SNP,8.5,3.0,0.0,4.0,3.0,2.0,"4.0 hours 
+                      plus a half hour for lunch",1750.0
+https://www.hikingupward.com/SNP/FrazierDiscovery/,Frazier Discovery Trail Hike,SNP,3.6,2.0,0.0,4.0,2.0,4.0,"2.0 hours 
+                      plus a half hour for lunch",950.0
+https://www.hikingupward.com/SNP/HawksbillFranklinCliffs/,Hawksbill Franklin Cliffs Hike,SNP,9.2,3.0,1.0,6.0,3.0,1.0,"5.5 hours 
+                      plus a half hour for lunch",1980.0
+https://www.hikingupward.com/SNP/HawksbillTimberHollow/,Hawksbill Mountain/Timber Hollow Hike,SNP,5.5,3.0,0.0,5.0,2.0,0.0,3.5 hours including 30 minutes for breaks,1260.0
+https://www.hikingupward.com/SNP/HazelRiver/,Hazel River Hike,SNP,9.2,4.0,3.0,2.0,3.0,1.0,"5 hours 
+                      plus a half hour for lunch",2090.0
+https://www.hikingupward.com/SNP/HightopMountain/,Hightop Mountain Hike,SNP,5.6,3.0,0.0,4.0,3.0,0.0,"3.0 hours 
+                      plus a half hour for lunch",1480.0
+https://www.hikingupward.com/SNP/HogbackMountain/,Hogback Mountain Hike,SNP,7.5,3.0,1.0,5.0,2.0,1.0,"3.5 hours 
+                      plus a half hour for lunch",1225.0
+https://www.hikingupward.com/SNP/JeremysRun/,Jeremy's Run Hike,SNP,14.7,4.0,4.0,3.0,3.0,2.0,"6.5 hours 
+                      plus a half hour for lunch",2620.0
+https://www.hikingupward.com/SNP/JonesMountain/,Jones Mountain Hike,SNP,11.8,5.0,4.0,4.0,3.0,2.0,"5.5 hours 
+                      plus a half hour for lunch",3397.0
+https://www.hikingupward.com/SNP/JonesRunDoylesRiver/,Jones Run/Doyles River,SNP,6.6,3.0,6.0,1.0,1.0,0.0,"4.3 hours 
+                      plus a half hour for lunch",1455.0
+https://www.hikingupward.com/SNP/LittleDevilsStairs/,Little Devils Stairs Hike,SNP,6.0,3.0,4.0,1.0,2.0,1.0,"4.0 hours plus a half hour 
+                      for lunch",1480.0
+https://www.hikingupward.com/SNP/LewisPeak/,Lewis Peak Hike,SNP,9.0,3.0,0.0,5.0,4.0,0.0,4.5 hours including 30 minutes for breaks,2250.0
+https://www.hikingupward.com/SNP/MoormansRiver/,Moorman's River Hike,SNP,5.0,2.0,4.0,2.0,2.0,0.0,"3.0 hours 
+                      plus a half hour for lunch",460.0
+https://www.hikingupward.com/SNP/NicholsonHollow/,Nicholson Hollow Hike,SNP,8.0,2.0,4.0,1.0,3.0,1.0,"4.5 hours 
+                      plus a half hour for lunch",1240.0
+https://www.hikingupward.com/SNP/OldRag/,Old Rag Mountain Hike,SNP,9.1,4.0,2.0,6.0,0.0,1.0,"5.5 hours 
+                      plus a half hour for lunch",2348.0
+https://www.hikingupward.com/SNP/OnemileRun/,Onemile Run Hike,SNP,7.9,4.0,4.0,2.0,5.0,4.0,4.5 hours including 30 minutes for breaks,1600.0
+https://www.hikingupward.com/SNP/OverallRunBeecherRidge/,Overall Run/Beecher Ridge Hike,SNP,8.5,4.0,5.0,4.0,2.0,1.0,"5.0 hours 
+                      plus a half hour for lunch",1965.0
+https://www.hikingupward.com/SNP/OverallRunHeiskellHollow/,Overall Run/Heiskell Hollow Hike,SNP,12.7,4.0,5.0,4.0,3.0,1.0,"6.5 hours 
+                      plus a half hour for lunch",2390.0
+https://www.hikingupward.com/SNP/PineyBranch/,Piney Branch Hike,SNP,8.0,4.0,4.0,1.0,4.0,1.0,"7.0 hours 
+                      plus a half hour for lunch",1980.0
+https://www.hikingupward.com/SNP/RiprapHollow/,Riprap Hollow Hike,SNP,9.5,4.0,3.0,4.0,3.0,1.0,"5.0 hours 
+                      plus a half hour for lunch",2225.0
+https://www.hikingupward.com/SNP/RobertsonMountain/,Robertson Mountain Hike,SNP,6.8,4.0,2.0,3.0,3.0,2.0,"4.5 hours 
+                      plus a half hour for lunch",2130.0
+https://www.hikingupward.com/SNP/RockyMount/,Rocky Mount Hike,SNP,9.5,5.0,1.0,4.0,3.0,2.0,"5.5 hours 
+                      plus a half hour for lunch",2840.0
+https://www.hikingupward.com/SNP/SaddlebackMountain/,Saddleback Mountian Hike,SNP,5.9,2.0,1.0,1.0,4.0,2.0,3.0 hours including 30 minutes for breaks,1079.0
+https://www.hikingupward.com/SNP/SamsRidgeCatlettSpur/,Sams Ridge/Catlett Spur Hike,SNP,9.4,4.0,1.0,1.0,3.0,1.0,"5.5 hours 
+                      with 30 minutes for breaks",2290.0
+https://www.hikingupward.com/SNP/SouthRiverFalls/,South River Falls Hike,SNP,10.4,3.0,3.0,2.0,3.0,0.0,"4.5 hours 
+                      plus a half hour for lunch",2300.0
+https://www.hikingupward.com/SNP/StonyMan/,Stony Man Mountain Hike,SNP,3.7,1.0,0.0,5.0,1.0,0.0,"3 hours 
+                      plus a half hour for lunch",860.0
+https://www.hikingupward.com/SNP/StonyMountain/,Stony Mountain Hike,SNP,10.1,4.0,2.0,2.0,3.0,1.0,"5.5 hours 
+                      plus a half hour for lunch",1840.0
+https://www.hikingupward.com/SNP/ThePeak/,The Peak Hike,SNP,16.8,6.0,1.0,4.0,3.0,0.0,"7.5 hours 
+                      plus a half hour for lunch",3255.0
+https://www.hikingupward.com/SNP/ThorntonRiver/,Thornton River Hike,SNP,10.5,3.0,4.0,2.0,2.0,2.0,"5.0 hours 
+                      plus a half hour for lunch",2180.0
+https://www.hikingupward.com/SNP/ThreeFalls/,Three Falls Hike,SNP,9.3,4.0,4.0,3.0,2.0,1.0,"4.5 hours 
+                      plus a half hour for lunch",2205.0
+https://www.hikingupward.com/SNP/TrayfootMountainPaineRun/,Trayfoot Mountain/Paine Run Hike,SNP,9.2,4.0,4.0,5.0,4.0,4.0,5.0 hours including 30 minutes for breaks,2200.0
+https://www.hikingupward.com/SNP/TurkMountain/,Turk Mountain Hike,SNP,10.4,4.0,4.0,4.0,3.0,0.0,"5 hours 
+                      plus a half hour for lunch",2390.0
+https://www.hikingupward.com/SNP/WhiteOak/,White Oak Canyon Hike,SNP,4.8,3.0,5.0,1.0,1.0,1.0,"4.0 hours plus a half hour
+                        for  lunch",1200.0
+https://www.hikingupward.com/SNP/WhiteOakCedarRun/,White Oak Canyon/Cedar Run  Hike,SNP,7.9,4.0,5.0,1.0,1.0,1.0,"5.0 hours plus a half hour
+                        for  lunch",2450.0
+https://www.hikingupward.com/WMNF/Presidentials/,Presidentials Hike,WMNF,21.4,6.0,3.0,6.0,2.0,2.0,2.5 Days,
+https://www.hikingupward.com/UNF/BirkheadMountainsWilderness/,Birkhead Mountains Wilderness Hike,UNF,12.0,3.0,3.0,1.0,4.0,5.0,5 hours and 10  minutes with 40 minutes of breaks,
+https://www.hikingupward.com/UNF/LittleLongMountain/,Little Long Mountain Hike,UNF,12.6,3.0,1.0,4.0,4.0,4.0,6 hours with 1  hour and 15 minutes of breaks,1883.0
+https://www.hikingupward.com/OMH/AnnapolisRockBlackRockCliff/,Annapolis Rock/Black Rock Cliff Hike,OMH,7.9,2.0,0.0,4.0,0.0,3.0,"4.0 hours 
+                      plus a half hour for lunch",840.0
+https://www.hikingupward.com/OMH/AntietamBloodyLane/,Antietam Bloody Lane Hike,OMH,4.6,2.0,2.0,2.0,1.0,0.0,"3.0 hours 
+                      plus a half hour for lunch",230.0
+https://www.hikingupward.com/OMH/AntietamBurnsideBridge/,Antietam Burnside Bridge Hike,OMH,4.4,2.0,5.0,2.0,1.0,0.0,"3.0 hours 
+                      plus a half hour for lunch",450.0
+https://www.hikingupward.com/OMH/BillyGoatTrail/,Billy Goat Trail Hike,OMH,7.8,3.0,6.0,5.0,0.0,0.0,"4.5 hours 
+                      plus a half hour for lunch",280.0
+https://www.hikingupward.com/OMH/CandOCanalWevertonCliff/,C&O Canal/Weverton Cliff Hike,OMH,9.0,3.0,5.0,4.0,1.0,1.0,"3.0 hours 
+                      plus a half hour for lunch",1600.0
+https://www.hikingupward.com/OMH/CatoctinMountainPark/,Catoctin Mountain Park Hike,OMH,8.4,3.0,3.0,5.0,0.0,0.0,"4.5 hours 
+                      plus a half hour for lunch",1370.0
+https://www.hikingupward.com/OMH/CatoctinTrail/,Catoctin Trail Hike,OMH,27.9,6.0,5.0,3.0,3.0,0.0,"11.5 hours 
+                      plus a half hour for lunch",4413.0
+https://www.hikingupward.com/OMH/GreenbrierStatePark/,Greenbrier State Park,OMH,4.7,3.0,1.0,2.0,1.0,0.0,"2.5 hours 
+                      plus a half hour for lunch",710.0
+https://www.hikingupward.com/OMH/LittleBennettRegionalPark/,Little Bennett Regional Park Hike,OMH,6.2,2.0,2.0,2.0,2.0,4.0,"3.5 hours 
+                      plus a half hour for lunch",540.0
+https://www.hikingupward.com/OMH/LittleBennettRegionalParkSouth/,Little Bennett Regional Park South Hike,OMH,5.8,2.0,1.0,1.0,2.0,3.0,2.5 hours,495.0
+https://www.hikingupward.com/OMH/MarylandChallenge/,Maryland Challenge Hike,OMH,41.9,6.0,3.0,3.0,2.0,4.0,16 - 18 hours,
+https://www.hikingupward.com/OMH/MarylandHeights/,Maryland Heights Hike,OMH,5.3,3.0,1.0,5.0,0.0,0.0,"3.0 hours 
+                      plus a half hour for lunch",1600.0
+https://www.hikingupward.com/OMH/SandFlatSalamanderTrail/,Sand Flat/Salamander Trail,OMH,9.3,3.0,1.0,2.0,1.0,0.0,"5.0 hours 
+                      plus a half hour for lunch",1010.0
+https://www.hikingupward.com/OMH/SugarloafMountain/,Sugarloaf Mountain Hike,OMH,6.8,3.0,1.0,4.0,1.0,0.0,"3.5 hours 
+                      plus a half hour for lunch",1265.0
+https://www.hikingupward.com/OMH/WoodstockEquestrianPark/,Woodstock Equestrian Park Hike,OMH,6.9,2.0,1.0,3.0,4.0,0.0,"3.5 hours 
+                      plus a half hour for lunch",580.0
+https://www.hikingupward.com/NCSP/BarnettKnob/,Barnett Knob Lookout Tower Hike,NCSP,1.4,1.0,0.0,2.0,4.0,0.0,45 minutes with  5 minutes of breaks,360.0
+https://www.hikingupward.com/NCSP/BasinCreek/,Basin Creek Hike,NCSP,11.0,3.0,5.0,1.0,4.0,4.0,5.5 hrs plus a half hour for lunch,
+https://www.hikingupward.com/NCSP/BeaconHeights/,Beacon Heights Hike,NCSP,0.8,1.0,0.0,5.0,1.0,0.0,45 minutes with 15 minutes of breaks,180.0
+https://www.hikingupward.com/NCSP/BearwallowMtnBlueRidgePastures/,Bearwallow Mountain/Blue Ridge Pastures Hike,NCSP,,,0.0,0.0,,0.0,,
+https://www.hikingupward.com/NCSP/BearwallowMtnBlueRidgePastures/,Bearwallow Mountain/Blue Ridge Pastures Hike,NCSP,7.3,3.0,0.0,5.0,2.0,0.0,"Combined Hikes
+                      3.5 hours with  45 minutes of breaks
+                      2,150 ft",
+https://www.hikingupward.com/NCSP/BlackrockMountainThePinnacle/,Blackrock Mountain/The Pinnacle Hike,NCSP,4.8,3.0,0.0,5.0,4.0,0.0,Blackrock Mountain,
+https://www.hikingupward.com/NCSP/BlackrockMountainThePinnacle/,Blackrock Mountain/The Pinnacle Hike,NCSP,11.3,6.0,0.0,6.0,4.0,0.0,Blackrock Mountain and The Pinnacle,
+https://www.hikingupward.com/NCSP/BooneForkPriceLake/,Boone Fork/Price Lake Hike,NCSP,8.4,3.0,6.0,3.0,1.0,0.0,3  hours 40 minutes with 45 minutes creek exploration,
+https://www.hikingupward.com/NCSP/BuckquarterCreekHoldenMill/,Buckquarter Creek/Holden Mill Hike,NCSP,7.0,2.0,4.0,1.0,2.0,2.0,2  hours and 40 minutes,
+https://www.hikingupward.com/NCSP/CampbellCreekLanierFalls/,Campbell Creek/Lanier Falls Hike,NCSP,5.3,2.0,4.0,0.0,3.0,1.0,2 hours and 30  minutes with 30 minutes of breaks,260.0
+https://www.hikingupward.com/NCSP/CascadeFalls/,Cascade Falls Hike,NCSP,2.0,2.0,2.0,0.0,0.0,0.0,45 minutes with 10  minutes of breaks,270.0
+https://www.hikingupward.com/NCSP/CrabtreeFalls/,Crabtree Falls Hike,NCSP,3.0,2.0,5.0,1.0,0.0,3.0,1 hours and 30  minutes with 15 minutes of breaks,740.0
+https://www.hikingupward.com/NCSP/CraggyPinnacle/,Craggy Pinnacle Hike,NCSP,1.1,2.0,0.0,6.0,0.0,0.0,45  minutes,230.0
+https://www.hikingupward.com/NCSP/CumberlandKnob/,Cumberland Knob Hike,NCSP,2.8,3.0,4.0,1.0,5.0,0.0,1.5 hours with 10 minute break,981.0
+https://www.hikingupward.com/NCSP/DevilsGardenOverlook/,Devil's Garden Overlook Hike,NCSP,12.7,5.0,3.0,2.0,5.0,0.0,5.5 hrs plus a half hour for lunch,
+https://www.hikingupward.com/NCSP/ElkKnob/,Elk Knob Hike,NCSP,3.8,2.0,0.0,4.0,3.0,0.0,2 hours with 30 minutes of break,
+https://www.hikingupward.com/NCSP/FivePeaksLoop/,Five Peaks Loop Hike,NCSP,10.1,3.0,1.0,5.0,1.0,0.0,6.0 hrs including 1 hr for breaks,
+https://www.hikingupward.com/NCSP/FlatTopTower/,Flat Top Tower Hike,NCSP,5.3,2.0,0.0,5.0,2.0,0.0,2 hours and 15 minutes with 30 minutes of break,584.0
+https://www.hikingupward.com/NCSP/FlorenceNaturePreserve/,Florence Nature Preserve Hike,NCSP,5.8,2.0,2.0,2.0,3.0,0.0,3 hours with 30 minutes of breaks,1560.0
+https://www.hikingupward.com/NCSP/GlenBurneyTrail/,Glen Burney Falls Trail Hike,NCSP,2.7,3.0,4.0,0.0,2.0,0.0,"1 hour 45 minutes, including 20 minutes for breaks.",
+https://www.hikingupward.com/NCSP/GrandfatherMountainDanielBoone/,Grandfather Mountain/Daniel Boone Hike,NCSP,11.5,6.0,0.0,6.0,2.0,4.0,8.0 hrs with 2.0 hrs for breaks,
+https://www.hikingupward.com/NCSP/GrandfatherMountainProfileTrail/,Grandfather Mountain/Profile Trail Hike,NCSP,11.3,6.0,1.0,6.0,2.0,4.0,8 hours and 40  minutes with 2 hours and 50 minutes of breaks,4035.0
+https://www.hikingupward.com/NCSP/GreenKnobSimsCreek/,Green Knob/Sims Creek Hike,NCSP,2.3,2.0,2.0,2.0,4.0,0.0,50 minutes,
+https://www.hikingupward.com/NCSP/HighShoalsFalls/,High Shoals Falls Hike,NCSP,8.0,3.0,5.0,1.0,3.0,4.0,4 hours with 45 minutes of breakss,
+https://www.hikingupward.com/NCSP/IndianCreek/,Indian Creek Hike,NCSP,8.2,2.0,3.0,1.0,2.0,0.0,3.5 hrs plus a half hour for lunch,
+https://www.hikingupward.com/NCSP/JacobForkRim/,Jacob Fork Rim Hike,NCSP,16.1,4.0,3.0,3.0,4.0,5.0,7 hours with 1  hour of breaks or 2 days for backpacking,
+https://www.hikingupward.com/NCSP/LinvilleFalls/,Linville Falls Hike,NCSP,4.3,3.0,5.0,4.0,3.0,0.0,2.5 hrs plus a half hour for lunch,
+https://www.hikingupward.com/NCSP/LittleTableRockMountain/,Little Table Rock Mountain Hike,NCSP,4.2,3.0,0.0,1.0,6.0,0.0,2 hours and 15  minutes with 25 minutes of breaks,1350.0
+https://www.hikingupward.com/NCSP/LookoutMountain/,Lookout Mountain Hike,NCSP,7.4,3.0,0.0,5.0,2.0,0.0,5 hours and 15  minutes with 1 hour and 45 minutes of breaks,
+https://www.hikingupward.com/NCSP/LowerCascadeFalls/,Lower Cascade Falls Hike,NCSP,0.9,1.0,4.0,0.0,3.0,0.0,45 minutes,
+https://www.hikingupward.com/NCSP/MillShoalsBirdRockFalls/,Mill Shoals/Bird Rock Falls Hike,NCSP,0.8,1.0,6.0,0.0,0.0,0.0,45 minutes with  15 minutes of breaks,80.0
+https://www.hikingupward.com/NCSP/MingoFalls/,Mingo Falls Hike,NCSP,0.3,1.0,5.0,0.0,1.0,0.0,Mingo Falls,
+https://www.hikingupward.com/NCSP/MingoFalls/,Mingo Falls Hike,NCSP,1.0,3.0,5.0,0.0,2.0,0.0,Including Upper Mingo Falls,
+https://www.hikingupward.com/NCSP/MooresKnob/,Moores Knob Hike,NCSP,5.3,3.0,2.0,5.0,1.0,0.0,3 hours with 1 hour of breaks,1050.0
+https://www.hikingupward.com/NCSP/MorrowMountainSugarloafMountain/,Morrow Mountain/Sugarloaf Mountain Hike,NCSP,7.3,3.0,0.0,3.0,2.0,1.0,3 hours and 30  minutes with 30 minutes of breaks,
+https://www.hikingupward.com/NCSP/MountNoble/,Mount Noble Lookout Tower Hike,NCSP,5.2,4.0,0.0,5.0,5.0,0.0,3 hours with 45  minutes of breaks,1590.0
+https://www.hikingupward.com/NCSP/MtJefferson/,Mt. Jefferson Hike,NCSP,4.3,2.0,0.0,4.0,2.0,0.0,2 hours and 15 minutes with 30 minutes of breaks,1416.0
+https://www.hikingupward.com/NCSP/OtterFalls/,Otter Falls Hike,NCSP,1.0,1.0,3.0,0.0,1.0,0.0,30 minutes,270.0
+https://www.hikingupward.com/NCSP/PilotMountain/,Pilot Mountain Hike,NCSP,9.3,3.0,0.0,5.0,1.0,0.0,4 hours with 30  minutes of breaks,2090.0
+https://www.hikingupward.com/NCSP/PondMountainStoneMountain/,Pond Mountain and Stone Mountain Hike,NCSP,10.7,3.0,0.0,6.0,6.0,0.0,5 hours and 30 minutes with 1 hour and 30  minutes of breaks,2045.0
+https://www.hikingupward.com/NCSP/RavenRock/,Raven Rock Hike,NCSP,2.7,2.0,2.0,3.0,0.0,0.0,1 hour and 15 minutes with 15 minutes of breaks,305.0
+https://www.hikingupward.com/NCSP/RichMountain/,Rich Mountain Hike,NCSP,9.0,3.0,2.0,3.0,2.0,0.0,4 hours and 30  minutes with 45 minutes of breaks,853.0
+https://www.hikingupward.com/NCSP/RichlandBalsam/,Richland Balsam Hike,NCSP,1.4,2.0,0.0,2.0,2.0,0.0,45 minutes,392.0
+https://www.hikingupward.com/NCSP/RiverbluffsTrail/,Riverbluffs Trail Hike,NCSP,1.7,1.0,3.0,1.0,2.0,0.0,45 minutes with  10 minutes of breaks,60.0
+https://www.hikingupward.com/NCSP/RockyFaceMountain/,Rocky Face Mountain Hike,NCSP,3.6,2.0,0.0,4.0,3.0,1.0,2 hours and 15  minutes with 45 minutes of breaks,
+https://www.hikingupward.com/NCSP/SaddleMountain/,Saddle Mountain Hike,NCSP,2.9,2.0,0.0,1.0,5.0,0.0,1.5 hours with a 10 minute break,
+https://www.hikingupward.com/NCSP/StoneMountainWolfRock/,Stone Mountain/Wolf Rock Hike,NCSP,9.0,3.0,3.0,4.0,1.0,0.0,4.5 hrs plus a half hour for lunch,
+https://www.hikingupward.com/NCSP/ThreeTopMountain/,Three Top Mountain Hike,NCSP,4.7,4.0,0.0,6.0,6.0,0.0,3 hours and 30  minutes with 1 hour and 15 minutes of breaks,
+https://www.hikingupward.com/NCSP/WaterrockKnob/,Waterrock Knob Hike,NCSP,1.1,2.0,0.0,3.0,1.0,0.0,40 minutes with  10 minutes of breaks,470.0
+https://www.hikingupward.com/OPH/CampMichaux/,Camp Michaux Hike,OPH,2.0,1.0,3.0,2.0,2.0,0.0,60 minutes,290.0
+https://www.hikingupward.com/OPH/SunsetRocks/,Sunset Rocks Hike,OPH,7.7,3.0,3.0,4.0,2.0,3.0,5.0 hours with a half hour for lunch,1340.0
+https://www.hikingupward.com/OVH/AppomattoxHistoryTrail/,Appomattox History Trail Hike,OVH,8.2,2.0,4.0,2.0,3.0,0.0,"4.5 hours, including a stop for lunch and stops to look at exhibits",750.0
+https://www.hikingupward.com/OVH/AshbyGap/,Ashby Gap Hike,OVH,8.5,3.0,2.0,0.0,4.0,2.0,"4.5 hours 
+                      plus a half hour for lunch",1520.0
+https://www.hikingupward.com/OVH/AshbyHollow/,Ashby Hollow Hike,OVH,6.4,3.0,2.0,1.0,3.0,2.0,"2.5 hours 
+                      plus a half hour for lunch",2005.0
+https://www.hikingupward.com/OVH/BallsBluffBattlefield/,Balls Bluff Battlefield Hike,OVH,2.6,1.0,4.0,2.0,1.0,0.0,"2.0 hours plus a half hour 
+                      for lunch",200.0
+https://www.hikingupward.com/OVH/BansheeReeks/,Banshee Reeks Hike,OVH,6.0,1.0,4.0,3.0,2.0,0.0,"3.0 hours plus a half hour 
+                      for lunch",298.0
+https://www.hikingupward.com/OVH/BeardsMountain/,Beards Mountain Hike,OVH,7.0,2.0,2.0,5.0,4.0,0.0,"3.5 hours 
+                      plus a half hour for lunch",1455.0
+https://www.hikingupward.com/OVH/BearsDenOverlook/,Bears Den Overlook Hike,OVH,1.8,1.0,0.0,3.0,1.0,0.0,"1.5 hours with breaks
+                      310 ft
+ Bears Den Trail Center 
+  Topo Hike Trails Map (PDF)
+ Bluemont  Weather Forecast
+ Garmin (GDB), Gaia/Trails App (GPX) (What's
+                          this?)
+ 3D
+                            View of Route",
+https://www.hikingupward.com/OVH/BearsDenSamMooreShelter/,Bears Den/Sam Moore Shelter Hike,OVH,6.6,3.0,3.0,3.0,3.0,3.0,"3.5 hours plus a half hour 
+                      for lunch",1780.0
+https://www.hikingupward.com/OVH/BelleIsle/,Belle Isle Hike,OVH,2.1,1.0,4.0,3.0,1.0,0.0,"1.0 hours 
+                      plus a half hour for lunch",55.0
+https://www.hikingupward.com/OVH/BentMountainFalls/,Bent Mountain Falls Hike,OVH,4.8,3.0,4.0,2.0,3.0,0.0,2 hours and 15  minutes with 30 minutes of breaks,900.0
+https://www.hikingupward.com/OVH/BeaverdamReservoir/,Beaverdam Reservoir Hike,OVH,7.7,2.0,1.0,2.0,2.0,0.0,3.5 hours with half hour for lunch,150.0
+https://www.hikingupward.com/OVH/BlueSuckFalls/,Blue Suck Falls Hike,OVH,9.4,4.0,2.0,5.0,3.0,0.0,"5.0 hours 
+                      plus a half hour for lunch",2205.0
+https://www.hikingupward.com/OVH/BRCES/,Blue Ridge Center for Environmental Stewardship Hike,OVH,6.2,2.0,3.0,2.0,5.0,0.0,"3.0 hours 
+                      plus a half hour for lunch",700.0
+https://www.hikingupward.com/OVH/BreaksInterstatePark/,Breaks Interstate Park Hike,OVH,4.3,5.0,3.0,4.0,4.0,0.0,3.5 hours with half hour for lunch,1350.0
+https://www.hikingupward.com/OVH/BurkeLake/,Burke Lake Hike,OVH,5.6,1.0,0.0,3.0,0.0,0.0,"2.5 hours plus a half hour 
+                      for lunch",30.0
+https://www.hikingupward.com/OVH/DeadRun/,Dead Run Hike,OVH,3.6,2.0,4.0,1.0,2.0,0.0,"2.5 hours plus a half hour 
+                      for lunch",452.0
+https://www.hikingupward.com/OVH/DifficultRun/,Difficult Run Hike,OVH,5.1,2.0,5.0,5.0,1.0,0.0,2.5 hours,260.0
+https://www.hikingupward.com/OVH/DutchGap/,Dutch Gap Hike,OVH,4.4,1.0,0.0,4.0,3.0,0.0,"3.0 hours 
+                      plus a half hour for lunch",
+https://www.hikingupward.com/OVH/FallingwaterCascadesFlatTop/,Fallingwater Cascades/Flat Top Mountain Hike,OVH,,,0.0,0.0,,0.0,,
+https://www.hikingupward.com/OVH/FallingwaterCascadesFlatTop/,Fallingwater Cascades/Flat Top Mountain Hike,OVH,7.7,3.0,4.0,4.0,3.0,0.0,Fallingwater Cascades/Flat Top Mountain,
+https://www.hikingupward.com/OVH/Fountainhead/,Fountanhead Regional Park,OVH,7.2,2.0,2.0,3.0,3.0,0.0,"4.0 hours plus a half hour 
+                      for lunch",710.0
+https://www.hikingupward.com/OVH/FortunesCove/,Fortune's Cove Hike,OVH,5.3,4.0,2.0,4.0,4.0,0.0,"3.5 hours plus a half hour 
+                      for lunch",1725.0
+https://www.hikingupward.com/OVH/GRThompsonWildlifeManagementArea/,G. Richard Thompson Wildlife Management Area,OVH,7.9,2.0,1.0,1.0,2.0,2.0,"4 hours plus a half hour 
+                      for lunch",1670.0
+https://www.hikingupward.com/OVH/GoshenPassJumpRock/,Goshen Pass/Jump Rock Hike,OVH,9.1,5.0,2.0,5.0,4.0,0.0,4.5 hours with half hour for lunch,1600.0
+https://www.hikingupward.com/OVH/HemlockOverlook/,Hemlock Overlook Regional Park,OVH,3.8,2.0,5.0,1.0,2.0,0.0,"2.5 hours plus a half hour 
+                      for lunch",390.0
+https://www.hikingupward.com/OVH/HighBridge/,High Bridge Hike,OVH,9.8,2.0,3.0,3.0,3.0,0.0,"4.0 hours plus a half hour 
+                      for lunch",80.0
+https://www.hikingupward.com/OVH/HofflerCreek/,Hoffler Creek Hike,OVH,2.1,1.0,4.0,3.0,3.0,0.0,"1.5 hours plus a half hour 
+                      for lunch",13.0
+https://www.hikingupward.com/OVH/HollowBrook/,Hollow Brook Hike,OVH,3.8,2.0,2.0,2.0,3.0,3.0,"2.0 hours 
+                      plus a half hour for lunch",860.0
+https://www.hikingupward.com/OVH/HouseMountain/,House Mountain Hike,OVH,8.9,5.0,0.0,5.0,4.0,3.0,"5.5 hours 
+                      plus a half hour for lunch",2850.0
+https://www.hikingupward.com/OVH/HungryMother/,Hungry Mother State Park Hike,OVH,6.5,3.0,2.0,4.0,3.0,0.0,"3.0 hours 
+                      plus a half hour for lunch",1323.0
+https://www.hikingupward.com/OVH/IvyCreek/,Ivy Creek Hike,OVH,4.8,1.0,4.0,3.0,3.0,0.0,"2.5 hours 
+                      plus a half hour for lunch",520.0
+https://www.hikingupward.com/OVH/JamesRiver/,James River Hike,OVH,6.3,2.0,5.0,3.0,1.0,0.0,"2.5 hours 
+                      plus a half hour for lunch",160.0
+https://www.hikingupward.com/OVH/JamesRiverSP/,James River State Park Hike,OVH,7.0,2.0,3.0,3.0,3.0,5.0,4.0 hours with time for stops,1700.0
+https://www.hikingupward.com/OVH/KeysGapBuzzardRocks/,Keys Gap/Buzzard Rocks Hike,OVH,7.7,3.0,0.0,3.0,3.0,3.0,"3.5 hours plus 30 minutes 
+                      for lunch",995.0
+https://www.hikingupward.com/OVH/LoudounHeights/,Loudoun Heights Hike,OVH,11.8,3.0,0.0,3.0,3.0,2.0,6 hours with 1  hour of breaks,1595.0
+https://www.hikingupward.com/OVH/ManassasBullRun/,Manassas National Battlefield Bull Run,OVH,5.3,2.0,1.0,2.0,2.0,0.0,"3 hours plus a half hour 
+                      for lunch",350.0
+https://www.hikingupward.com/OVH/ManassasGroveton/,Manassas National Battlefield Groveton,OVH,6.2,2.0,1.0,2.0,2.0,0.0,"3 hours plus a half hour 
+                      for lunch",290.0
+https://www.hikingupward.com/OVH/ManassasGap/,Manassas Gap Hike,OVH,5.0,3.0,1.0,2.0,2.0,3.0,"3.0 hours plus 30 minutes 
+                      for lunch",1055.0
+https://www.hikingupward.com/OVH/MasonNeck/,Mason  Neck State Park,OVH,7.5,2.0,0.0,3.0,1.0,0.0,"3.5 hours plus a half hour 
+                      for lunch",85.0
+https://www.hikingupward.com/OVH/MottsRunReservoir/,Motts Run Reservoir Hike,OVH,5.0,2.0,4.0,3.0,3.0,0.0,"2.5 hours plus a half hour 
+                      for lunch",605.0
+https://www.hikingupward.com/OVH/PatriciaAnnByromForestPreserve/,Patricia Ann Byrom Forest Preserve Hike,OVH,4.3,3.0,1.0,3.0,4.0,0.0,"3.0 hours plus a half hour 
+                      for lunch",1220.0
+https://www.hikingupward.com/OVH/PeaksOfOtter/,Peaks of Otter Hike,OVH,3.6,4.0,0.0,5.0,2.0,0.0,,1540.0
+https://www.hikingupward.com/OVH/PeaksOfOtter/,Peaks of Otter Hike,OVH,6.2,4.0,0.0,4.0,3.0,0.0,,1540.0
+https://www.hikingupward.com/OVH/PleasantGrove/,Pleasant Grove Hike,OVH,6.7,2.0,4.0,2.0,3.0,0.0,"3.0 hours plus a half hour 
+                      for lunch",432.0
+https://www.hikingupward.com/OVH/PrinceWilliam/,Prince William Forest Park,OVH,7.1,2.0,4.0,1.0,2.0,2.0,"4 hours plus a half hour 
+                      for lunch",620.0
+https://www.hikingupward.com/OVH/RaggedMountain/,Ragged Mountain Hike,OVH,6.1,2.0,4.0,3.0,3.0,0.0,"3.0 hours 
+                      plus a half hour for lunch",980.0
+https://www.hikingupward.com/OVH/ReadMountainPreserve/,Read Mountain Preserve Hike,OVH,4.9,2.0,0.0,2.0,1.0,0.0,2 hours and 45 minutes with 30 minutes of breaks,1340.0
+https://www.hikingupward.com/OVH/RavenRocks/,Raven Rocks Hike,OVH,5.8,3.0,1.0,4.0,1.0,2.0,"4 hours plus breaks
+                      1,530 ft
+ Bears Den Trail Center 
+  Topo Hike Trails Map (PDF)
+ Bluemont  Weather Forecast
+ Garmin (GDB), Gaia/Trails App (GPX) (What's
+                          this?)
+ 3D
+                            View of Route",
+https://www.hikingupward.com/OVH/RedRockWilderness/,Red Rock Wilderness Hike,OVH,1.7,1.0,4.0,3.0,1.0,0.0,1.0 hour,190.0
+https://www.hikingupward.com/OVH/RiverBend/,Riverbend Park Hike,OVH,4.5,1.0,2.0,3.0,1.0,0.0,2.5 hours,290.0
+https://www.hikingupward.com/OVH/RockCastleGorge/,Rock Castle Gorge Hike,OVH,10.7,4.0,3.0,4.0,3.0,3.0,"6.5 hours plus a half hour 
+                      for lunch",2490.0
+https://www.hikingupward.com/OVH/ScottsRun/,Scott's Run Nature Preserve Hike,OVH,2.2,2.0,4.0,3.0,1.0,0.0,1.5 hours,240.0
+https://www.hikingupward.com/OVH/ShenandoahRiver/,Shenandoah River State Park Hike,OVH,8.5,2.0,5.0,3.0,3.0,0.0,"3.5 hours plus a half hour 
+                      for lunch",650.0
+https://www.hikingupward.com/OVH/SkyMeadows/,Sky Meadows State Park Hike,OVH,7.1,2.0,1.0,6.0,1.0,2.0,"3.5 hours plus a half hour 
+                      for lunch",1292.0
+https://www.hikingupward.com/OVH/SkyMeadowsFarms/,Sky Meadows Farms/Lost Mountain Hike,OVH,5.2,2.0,1.0,3.0,3.0,0.0,"2.5 hours plus a half hour 
+                      for lunch",580.0
+https://www.hikingupward.com/OVH/StairwayToHeaven/,Stairway To Heaven Hike,OVH,6.2,3.0,1.0,4.0,2.0,2.0,"4.0 hours plus 30 minutes 
+                      for lunch",1820.0
+https://www.hikingupward.com/OVH/TrumboHollow/,Trumbo Hollow Hike,OVH,6.6,3.0,2.0,4.0,3.0,3.0,"3.5 hours plus 30 minutes 
+                      for lunch",1055.0
+https://www.hikingupward.com/OVH/TrumboHollow/,Trumbo Hollow Hike,OVH,6.6,3.0,2.0,4.0,3.0,3.0,"3.5 hours plus 30 minutes 
+                      for lunch",1055.0
+https://www.hikingupward.com/OVH/Wahrani/,Wahrani Nature Trail,OVH,3.4,2.0,3.0,1.0,3.0,0.0,"2.0 hours. 
+                      Have lunch at the",
+https://www.hikingupward.com/OVH/TriStatePeakPinnacle/,Tri-State Peak/Pinnacle Hike,OVH,5.0,3.0,1.0,4.0,2.0,0.0,3.0 hours with half hour for lunch,1500.0
+https://www.hikingupward.com/OVH/WolfRunShoals/,Wolf Run Shoals Hike,OVH,4.3,2.0,3.0,2.0,2.0,0.0,"2.0 hours plus a half hour 
+                      for lunch",541.0
+https://www.hikingupward.com/OWVH/BeartownStatePark/,Beartown State Park Hike,OWVH,0.5,1.0,0.0,0.0,1.0,0.0,30 minutes,150.0
+https://www.hikingupward.com/OWVH/BolivarHeights/,Bolivar Heights Hike,OWVH,3.4,1.0,0.0,3.0,3.0,0.0,2.0 hours,330.0
+https://www.hikingupward.com/OWVH/CacaponResortStatePark/,Cacapon Resort State Park,OWVH,6.6,3.0,1.0,2.0,4.0,0.0,"3.5 hours 
+                      plus a half hour for lunch",1450.0
+https://www.hikingupward.com/OWVH/CrannyCrowBigRidge/,Cranny Crow/Big Ridge Hike,OWVH,11.1,3.0,1.0,5.0,3.0,0.0,"5.5 hours 
+                      plus a half hour for lunch",2150.0
+https://www.hikingupward.com/OWVH/DevilsNose/,Devils Nose Hike,OWVH,,,0.0,0.0,,0.0,,
+https://www.hikingupward.com/OWVH/DevilsNose/,Devils Nose Hike,OWVH,,,0.0,0.0,,0.0,,
+https://www.hikingupward.com/OWVH/GladeCreek/,Glade Creek Hike,OWVH,9.8,2.0,5.0,1.0,3.0,4.0,4.0 hours with breaks,800.0
+https://www.hikingupward.com/OWVH/HarpersFerryLoudounHeights/,Harpers Ferry/Loudoun Heights Hike,OWVH,8.2,3.0,5.0,4.0,2.0,1.0,"4.5 hours 
+                      plus a half hour for lunch",1880.0
+https://www.hikingupward.com/OWVH/HighRockShockeysKnob/,High Rock/Shockeys Knob Hike,OWVH,7.0,2.0,1.0,3.0,4.0,3.0,4.5 hours with 1/2 for lunch,1010.0
+https://www.hikingupward.com/OWVH/MurphyChambersFarm/,Murphy Chambers Farm Hike,OWVH,2.0,1.0,0.0,4.0,1.0,0.0,"1.0 hours plus a 15 min 
+                      for lunch",160.0
+https://www.hikingupward.com/OWVH/SchoolHouseRidge/,School House Ridge Hike,OWVH,3.7,1.0,2.0,3.0,3.0,0.0,"1.5 hours plus a 15 min 
+                      for lunch",190.0
+https://www.hikingupward.com/OWVH/SenecaStateForest/,Seneca State Forest Hike,OWVH,4.2,2.0,3.0,2.0,3.0,2.0,2.5 hrs plus a half hour for lunch,
+https://www.hikingupward.com/OWVH/WatogaStatePark/,Watoga State Park Hike,OWVH,9.7,3.0,2.0,3.0,3.0,0.0,5.0 hours with breaks,1900.0
