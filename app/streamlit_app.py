@@ -6,8 +6,8 @@ st.set_page_config(layout="wide")
 st.title("Hiking Upward Recommender")
 
 st.header("Input")
-st.text(
-    "Please visit https://www.hikingupward.com/maps/ to choose a hike and enter the URL below to see similar hikes."
+st.write(
+    "Please visit [Hiking Upward](https://www.hikingupward.com/maps/) to choose a hike and enter the URL below to see similar hikes."
 )
 
 try:
