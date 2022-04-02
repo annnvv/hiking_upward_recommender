@@ -1,11 +1,15 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(layout='wide')
+st.set_page_config(layout="wide")
 
 st.title("Hiking Upward Recommender")
 
 st.header("Input")
+st.text(
+    "Please visit https://www.hikingupward.com/maps/ to choose a hike and enter the URL below to see similar hikes."
+)
+
 try:
     url = st.text_input("Hiking Upward Hike URL")
 except ValueError:
