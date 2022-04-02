@@ -1,18 +1,16 @@
 FROM python:3.7-slim
 
+WORKDIR /app
+COPY . .
+
 COPY poetry.lock pyproject.toml ./
 
 RUN pip3 install poetry
 RUN poetry config virtualenvs.create false
 RUN poetry install --no-dev
 
-CMD ["python"]
+EXPOSE 8501
 
-# WORKDIR /app
-# COPY . /src
+ENTRYPOINT ["streamlit", "run"]
 
-# EXPOSE 8501
-
-# ENTRYPOINT ["streamlit", "run"]
-
-# CMD ["src/streamlit_app.py"]
+CMD ["streamlit_app.py"]
