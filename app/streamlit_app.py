@@ -53,11 +53,11 @@ if url:
 
     st.dataframe(merged)
 
-st.subheader("Methodology Note")
-st.markdown(
-    "The recommender system calculates the cosine similarity between the hike and all other hikes. \
-    In calculating the cosine similarity, it takes into account hike length (in miles), difficulty, streams, views, solitude, and camping ratings \
-    (a rating has a scale from zero to six, higher values indicate more difficulty, better views, more streams, etc.). \
-    A future iteration will take into account hike duration and elevation gain. \
-    Then, the top 5, 10, or 15 most similar hikes are returned."
-)
+with st.expander("Methodology Note"):
+    st.markdown(
+        "The recommender system calculates the cosine similarity between the hike and all other hikes. \
+        In calculating the cosine similarity, it takes into account hike length (in miles), difficulty, streams, views, solitude, and camping ratings \
+        (a rating has a scale from zero to six, higher values indicate more difficulty, better views, more streams, etc.). \
+        A future iteration will take into account hike duration and elevation gain. \
+        Then, the top 5, 10, or 15 most similar hikes are returned."
+    )
