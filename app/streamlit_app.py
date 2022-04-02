@@ -24,7 +24,7 @@ if url:
 
     recommend_df = pd.read_csv("app/data/nearest_25_recommendations_for_each_hike.csv")
 
-    one_hike = hike_df[hike_df.hike_url == url]
+    one_hike = hike_df[hike_df.hike_url == url].reset_index()
     st.text("Input Hike Information")
     st.write(one_hike)
 
@@ -39,5 +39,17 @@ if url:
     merged.drop(["similar", "score"], axis=1, inplace=True)
 
     st.text("Recommended Hike Information")
+
+    # CSS to inject contained in a string
+    hide_dataframe_row_index = """
+                <style>
+                .row_heading.level0 {display:none}
+                .blank {display:none}
+                </style>
+                """
+
+    # Inject CSS with Markdown
+    st.markdown(hide_dataframe_row_index, unsafe_allow_html=True)
+
     st.dataframe(merged)
 
