@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(layout="wide")
+st.set_page_config(title="Hiking Upward Recommender", layout="wide")
 
 st.title("Hiking Upward Recommender")
 
@@ -11,7 +11,7 @@ st.write(
 )
 
 try:
-    url = st.text_input("Hiking Upward Hike URL")
+    url = st.text_input("Hiking Upward Hike URL", max_chars=75)  # max len of URL is 72
 except ValueError:
     print("URL must start with https://www.hikingupward.com/")
 
