@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 import requests
 from bs4 import BeautifulSoup
+from sklearn.preprocessing import StandardScaler
+import turicreate as tc
 
 
 def get_rating(table):
@@ -338,3 +340,29 @@ try:
 except Exception as e:
     print(e)
 
+std_scaler = StandardScaler()
+scaled = hike_df[
+    [
+        "hike_len_in_mi",
+        "difficulty_rating",
+        "streams_rating",
+        "views_rating",
+        "solitude_rating",
+        "camping_rating",
+    ]
+]
+df_scaled = std_scaler.fit_transform(scaled.to_numpy())
+df_scaled = pd.DataFrame(df_scaled, columns=scaled.columns)
+df_scaled["hike_url"] = hike_df["hike_url"]
+
+tcdf = tc.SFrame(data=df_scaled)
+
+## fit the model
+recommender_model = tc.recommender.item_content_recommender.create(
+    tcdf, item_id="hike_url"
+)
+
+## return the fifteen most similar items for every item in the training data
+nn = recommender_model.get_similar_items(k=15)
+
+# nn.export_csv("nearest_15_recommendations_for_each_hike.csv")
