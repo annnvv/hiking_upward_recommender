@@ -27,13 +27,13 @@ if url:
             "hike_url": str,
             "hike_name": str,
             "park_abbreviation": str,
-            "hike_len_in_mi": float16,
+            # "hike_len_in_mi": float16,
             "difficulty_rating": int,
             "streams_rating	views_rating": int,
             "solitude_rating": int,
             "camping_rating": int,
             "hiking_duration_str": str,
-            "elevation_gain_ft": float16,
+            # "elevation_gain_ft": float16,
         },
     )
 
