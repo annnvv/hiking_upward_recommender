@@ -1,3 +1,4 @@
+from numpy import float16
 import streamlit as st
 import pandas as pd
 
@@ -20,7 +21,21 @@ num_recommend = st.radio("Choose the number of recommendations", (5, 10, 15))
 st.header("Output")
 if url:
 
-    hike_df = pd.read_csv("app/data/hiking_upward_data.csv")
+    hike_df = pd.read_csv(
+        "app/data/hiking_upward_data.csv",
+        dtype={
+            "hike_url": str,
+            "hike_name": str,
+            "park_abbreviation": str,
+            "hike_len_in_mi": float16,
+            "difficulty_rating": int,
+            "streams_rating	views_rating": int,
+            "solitude_rating": int,
+            "camping_rating": int,
+            "hiking_duration_str": str,
+            "elevation_gain_ft": float16,
+        },
+    )
 
     recommend_df = pd.read_csv("app/data/nearest_15_recommendations_for_each_hike.csv")
 
