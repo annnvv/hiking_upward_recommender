@@ -4,6 +4,8 @@
 
 **Purpose**: The purpose of this repo is to create and deploy an app that recommends similar Hiking Upward hikes based on a Hiking Upward Hike (using a URL as an identifier). 
 
+I decided to do this project because I wasn't satisfied by the simple filtering page that Hiking Upward has [here](https://www.hikingupward.com/maps/). I wanted to find similar hikes to the ones that I enjoyed and I wanted to learn about recommender systems, which is why I chose to take on this project. 
+
 To see the app, please visit [this link](https://share.streamlit.io/annnvv/hiking_upward_recommender/main/app/streamlit_app.py).
 
 ## Skills used:
@@ -33,4 +35,5 @@ To see the app, please visit [this link](https://share.streamlit.io/annnvv/hikin
 - [Docker Ignore](https://codefresh.io/docker-tutorial/not-ignore-dockerignore-2/)
 
 ### Streamlit:
+- [Streamlit Cheatsheet](https://docs.streamlit.io/library/cheatsheet)
 - https://www.rockyourcode.com/run-streamlit-with-docker-and-docker-compose/
