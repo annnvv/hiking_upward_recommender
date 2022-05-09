@@ -37,3 +37,7 @@ To see the app, please visit [this link](https://share.streamlit.io/annnvv/hikin
 ### Streamlit:
 - [Streamlit Cheatsheet](https://docs.streamlit.io/library/cheatsheet)
 - https://www.rockyourcode.com/run-streamlit-with-docker-and-docker-compose/
+
+### Pandera:
+- [Pandera Docs](https://pandera.readthedocs.io/en/stable/index.html)
+- [Validating Pandas DataFrame])(https://towardsdatascience.com/validate-your-pandas-dataframe-with-pandera-2995910e564)
