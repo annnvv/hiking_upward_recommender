@@ -2,8 +2,8 @@
 FROM python:3.7-slim
 
 WORKDIR /app
-COPY app/ /app/
-COPY notebooks/. /app/notebooks/
+COPY app /app/
+COPY notebooks /app/notebooks/
 
 COPY dev_requirements.txt ./
 
