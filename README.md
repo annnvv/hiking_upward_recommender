@@ -9,11 +9,12 @@ I decided to do this project because I wasn't satisfied by the simple filtering 
 To see the app, please visit [this link](https://share.streamlit.io/annnvv/hiking_upward_recommender/main/app/streamlit_app.py).
 
 ## Skills used:
-- Web scraping using requests and beautifulsoup 
-- Content-based recommender systems using Apple's Turicreate
-- Creating reproducible virtual environments using conda and poetry
-- Dockerizing the virtual environment
-- Deploying the recommender app using streamlit
+- Web scraping using `requests` and `beautifulsoup` 
+- Validating a dataframe using `pandera`
+- Content-based recommender systems using Apple's `Turicreate`
+- Creating reproducible virtual environments using `poetry`
+- `Docker`izing the virtual environment
+- Deploying the recommender app using `streamlit`
 
 ## Lessons learned:
 - The turicreate package doesn't run on windows (only mac, Linux, or Windox Linux subsystem)
