@@ -8,6 +8,8 @@ I decided to do this project because I wasn't satisfied by the simple filtering 
 
 To see the app, please visit [this link](https://share.streamlit.io/annnvv/hiking_upward_recommender/main/app/streamlit_app.py).
 
+**Data Source**: webscraping [Hiking Upward](https://www.hikingupward.com)
+
 ## Skills used:
 - Web scraping using `requests` and `beautifulsoup` 
 - Validating a dataframe using `pandera`
