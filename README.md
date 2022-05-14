@@ -1,6 +1,6 @@
 # Hiking Upward Recommender
 
-**Status**: IN PROGRESS
+**Status**: In Progress
 
 **Purpose**: The purpose of this repo is to create and deploy an app that recommends similar Hiking Upward hikes based on a Hiking Upward Hike (using a URL as an identifier). 
 
@@ -43,4 +43,4 @@ To see the app, please visit [this link](https://share.streamlit.io/annnvv/hikin
 
 ### Pandera:
 - [Pandera Docs](https://pandera.readthedocs.io/en/stable/index.html)
-- [Validating Pandas DataFrame])(https://towardsdatascience.com/validate-your-pandas-dataframe-with-pandera-2995910e564)
+- [Validating Pandas DataFrame](https://towardsdatascience.com/validate-your-pandas-dataframe-with-pandera-2995910e564)
