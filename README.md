@@ -1,12 +1,14 @@
 # Hiking Upward Recommender
 
-**Status**: IN PROGRESS
+**Status**: In Progress
 
 **Purpose**: The purpose of this repo is to create and deploy an app that recommends similar Hiking Upward hikes based on a Hiking Upward Hike (using a URL as an identifier). 
 
 I decided to do this project because I wasn't satisfied by the simple filtering page that Hiking Upward has [here](https://www.hikingupward.com/maps/). I wanted to find similar hikes to the ones that I enjoyed and I wanted to learn about recommender systems, which is why I chose to take on this project. 
 
 To see the app, please visit [this link](https://share.streamlit.io/annnvv/hiking_upward_recommender/main/app/streamlit_app.py).
+
+**Data Source**: webscraping [Hiking Upward](https://www.hikingupward.com)
 
 ## Skills used:
 - Web scraping using `requests` and `beautifulsoup` 
@@ -41,4 +43,4 @@ To see the app, please visit [this link](https://share.streamlit.io/annnvv/hikin
 
 ### Pandera:
 - [Pandera Docs](https://pandera.readthedocs.io/en/stable/index.html)
-- [Validating Pandas DataFrame])(https://towardsdatascience.com/validate-your-pandas-dataframe-with-pandera-2995910e564)
+- [Validating Pandas DataFrame](https://towardsdatascience.com/validate-your-pandas-dataframe-with-pandera-2995910e564)
