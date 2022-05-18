@@ -6,6 +6,10 @@
 
 I decided to do this project because I wasn't satisfied by the simple filtering page that Hiking Upward has [here](https://www.hikingupward.com/maps/). I wanted to find similar hikes to the ones that I enjoyed and I wanted to learn about recommender systems, which is why I chose to take on this project. 
 
+App version 0 (complete) : Data scraping and recommendation done in notebooks, results exported in a csv. Streamlit app uses the csvs to display recommendations. 
+
+App version 1 (in progress): Convert notebooks to functions (maybe later classes), streamlit app runs the functions and caches the results and displays recommendations. 
+
 To see the app, please visit [this link](https://share.streamlit.io/annnvv/hiking_upward_recommender/main/app/streamlit_app.py).
 
 **Data Source**: webscraping [Hiking Upward](https://www.hikingupward.com)
