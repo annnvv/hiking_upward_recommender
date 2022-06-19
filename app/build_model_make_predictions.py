@@ -35,7 +35,7 @@ schema = pa.DataFrameSchema(
             pa.Check.str_startswith("https://www.hikingupward.com/"),
             nullable=False,
         ),
-        "park_abbreviation": pa.column(str, pa.Check.isin(parks_abbr), vnullable=False),
+        "park_abbreviation": pa.column(str, pa.Check.isin(parks_abbr), nullable=False),
         # "state": pa.column(str, pa.Check.isin(states), nullable = False),
         "hike_len_in_mi": pa.Column(int, nullable=False),
         "difficulty_rating": pa.Column(
@@ -129,7 +129,7 @@ def get_all_ratings(table):
 
 def get_duration_and_elevation(table):
     """"Return an array of duration and elevation gain from an html table"""
-    
+
     try:
         hiking_duration = str(table.contents[0].text.strip()) #av.note: want this to be numeric
     except:
@@ -198,7 +198,7 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                     views_rating,
                     solitude_rating,
                     camping_rating,
-                ) = get_rating(rating_table)
+                ) = get_all_ratings(rating_table)
 
                 time_elev = tables.find_all("tr")[2].find_all("td")[1]
                 hiking_duration, elevation_gain_ft = get_duration_and_elevation(
@@ -233,7 +233,7 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                     views_rating,
                     solitude_rating,
                     camping_rating,
-                ) = get_rating(rating_table)
+                ) = get_all_ratings(rating_table)
 
                 time_elev = tables.find_all("tr")[2].find_all("td")[1]
                 hiking_duration, elevation_gain_ft = get_duration_and_elevation(
@@ -248,7 +248,7 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                     views_rating2,
                     solitude_rating2,
                     camping_rating2,
-                ) = get_rating(rating_table2)
+                ) = get_all_ratings(rating_table2)
 
                 time_elev2 = tables.find_all("tr")[4].find_all("td")[1]
                 hiking_duration2, elevation_gain_ft2 = get_duration_and_elevation2(
@@ -295,7 +295,7 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                     views_rating,
                     solitude_rating,
                     camping_rating,
-                ) = get_rating(rating_table)
+                ) = get_all_ratings(rating_table)
 
                 time_elev = tables.find_all("tr")[3].find_all("td")[1]
                 hiking_duration, elevation_gain_ft = get_duration_and_elevation(
@@ -310,7 +310,7 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                     views_rating2,
                     solitude_rating2,
                     camping_rating2,
-                ) = get_rating(rating_table2)
+                ) = get_all_ratings(rating_table2)
 
                 time_elev2 = tables.find_all("tr")[6].find_all("td")[1]
                 hiking_duration2, elevation_gain_ft2 = get_duration_and_elevation2(
