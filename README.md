@@ -32,15 +32,17 @@ To see the app, please visit [this link](https://share.streamlit.io/annnvv/hikin
   - It was difficult to figure out how to get a recommendation from the model using new data (maybe because of the data types) 
 
 ## Useful resources:
-### Turicreate:
-- [Turicreate Recommender System User Guide](https://apple.github.io/turicreate/docs/userguide/recommender/)
-- [Turicreate Item Recommender Docs](https://apple.github.io/turicreate/docs/api/generated/turicreate.recommender.item_content_recommender.ItemContentRecommender.html)
 
 ### Poetry:
 - [Poetry Docs](https://python-poetry.org/docs/basic-usage/)
 - https://realpython.com/dependency-management-python-poetry/
 - https://mungingdata.com/python/jupyter-workflow-poetry-pandas/ 
 - https://pythonspeed.com/articles/poetry-vs-docker-caching/
+
+Useful command line command for poetry (seem to speed up dependency resolution)
+```
+poetry cache clear --all pypi
+```
 
 ### Docker:
 - [Deploy streamlit with Docker](https://towardsdatascience.com/create-an-awesome-streamlit-app-deploy-it-with-docker-a3d202a636e8#:~:text=Time%20to%20Dockerize%20the%20application)
@@ -54,7 +56,6 @@ To see the app, please visit [this link](https://share.streamlit.io/annnvv/hikin
 - [Pandera Docs](https://pandera.readthedocs.io/en/stable/index.html)
 - [Validating Pandas DataFrame](https://towardsdatascience.com/validate-your-pandas-dataframe-with-pandera-2995910e564)
 
-Useful command line command for poetry (seem to speed up dependency resolution)
-```
-poetry cache clear --all pypi
-```
+### Turicreate:
+- [Turicreate Recommender System User Guide](https://apple.github.io/turicreate/docs/userguide/recommender/)
+- [Turicreate Item Recommender Docs](https://apple.github.io/turicreate/docs/api/generated/turicreate.recommender.item_content_recommender.ItemContentRecommender.html)
