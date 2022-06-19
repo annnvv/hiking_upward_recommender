@@ -53,3 +53,8 @@ To see the app, please visit [this link](https://share.streamlit.io/annnvv/hikin
 ### Pandera:
 - [Pandera Docs](https://pandera.readthedocs.io/en/stable/index.html)
 - [Validating Pandas DataFrame](https://towardsdatascience.com/validate-your-pandas-dataframe-with-pandera-2995910e564)
+
+Useful command line command for poetry (seem to speed up dependency resolution)
+```
+poetry cache clear --all pypi
+```
