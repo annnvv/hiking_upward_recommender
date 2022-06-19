@@ -70,6 +70,8 @@ schema = pa.DataFrameSchema(
 
 
 def get_rating(table):
+    """Return an array of numeric ratings from an html table"""
+
     try:
         hike_len_in_mi = float(table[0].text.replace("mls", "").strip())
     except:
@@ -156,8 +158,9 @@ def get_rating(table):
 
 
 def get_duration_and_elevation(table):
+    """"Return an array of duration and elevation gain from an html table"""
     try:
-        hiking_duration = str(table.contents[0].text.strip())
+        hiking_duration = str(table.contents[0].text.strip()) #av.note: want this to be numeric
     except:
         hiking_duration = ""
 
@@ -172,7 +175,7 @@ def get_duration_and_elevation(table):
             .replace("with two ascents", "")
             .replace("with two different ascents", "")
             .strip()
-        )
+        ) #av.note: want this to be numeric
     except:
         elevation_gain_ft = ""
 
@@ -180,6 +183,9 @@ def get_duration_and_elevation(table):
 
 
 def get_duration_and_elevation2(table):
+    """"Return an array of duration and elevation gain from an html table.
+    This function is necessary because this data lives in a different part of the table"""
+
     try:
         hiking_duration = str(table.contents[2].text.strip())
     except:
@@ -204,6 +210,7 @@ def get_duration_and_elevation2(table):
 
 
 def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
+    """Return a dataframe with data for one hike"""
 
     hike_content = get(hiking_upward_url)
     if hike_content.status_code == 200:
@@ -375,6 +382,8 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
             pass
 
 def get_many_hikes() -> DataFrame:
+    """Return a dataframe with data for all hikes on hikingupward.com and do some minor cleaning on the dataframe """
+
     try:
         url = "https://www.hikingupward.com/"
         data = get(url)
@@ -427,7 +436,10 @@ def scale_df(df: DataFrame,
             "views_rating",
             "solitude_rating",
             "camping_rating",
-        ]) -> DataFrame:
+        ] #av.note: this is a subset eventually want this to be all numeric vars in hike_df
+        ) -> DataFrame:
+    """Using StandardScaler to scale numeric variables in dataframe and returned scaled dataframe with hike_url as unique identifier"""
+
     std_scaler = StandardScaler()
     scaled = df[list_vars]
     df_scaled = std_scaler.fit_transform(scaled.to_numpy())
@@ -438,6 +450,8 @@ def scale_df(df: DataFrame,
 
 
 def get_recommendations():
+    """This function is a work in progress, will change from current iteration """
+
     hike_df = get_many_hikes()
     df_scaled = scale_df(hike_df)
     tcdf = tc.SFrame(data=df_scaled)
@@ -452,6 +466,8 @@ def get_recommendations():
 
     nn.export_csv("data/nearest_15_recommendations_for_each_hike_TEST.csv") #av.note: will eventually want to get rid of this
     print("recommender finished")
+
+    return nn
 
 
 get_recommendations()
