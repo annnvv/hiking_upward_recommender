@@ -17,14 +17,19 @@ To see the app, please visit [this link](https://share.streamlit.io/annnvv/hikin
 ## Skills used:
 - Web scraping using `requests` and `beautifulsoup` 
 - Validating a dataframe using `pandera`
-- Content-based recommender systems using Apple's `Turicreate`
+- Content-based recommender systems using ~~Apple's `Turicreate`~~
 - Creating reproducible virtual environments using `poetry`
 - `Docker`izing the virtual environment
 - Deploying the recommender app using `streamlit`
 
 ## Lessons learned:
 - The turicreate package doesn't run on windows (only mac, Linux, or Windox Linux subsystem)
-- This required the use of docker container. 
+  - This required the use of docker container. 
+- Eventually, I decided against using turicreate. Some of the reasons: 
+  - Turicreate uses its own data types (such as SFrame and SArray)
+  - Tucireate only supports up to python 3.8
+  - There were issues with dependency resolution related to turicreate (mainly coremltools version 3.3 and tensorflow version) 
+  - It was difficult to figure out how to get a recommendation from the model using new data (maybe because of the data types) 
 
 ## Useful resources:
 ### Turicreate:
