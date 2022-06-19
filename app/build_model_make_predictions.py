@@ -69,7 +69,22 @@ schema = pa.DataFrameSchema(
 )
 
 
-def get_rating(table):
+def replace_chars(string: str) -> str:
+    """Replace certain strings from an html string"""
+
+    string = string.replace("../../images/stars/Star", "").replace("/images/stars/Star", "").replace("_clear.gif", "").replace("_grey.gif", "").replace("_red.gif", "")
+    
+    return string
+
+def get_one_rating(table, table_num: int) -> int:
+    """Extract rating from an html table"""
+
+    table_str = table[table_num].find("img").get("src")
+    table_rating = replace_chars(table_str)
+
+    return int(table_rating)
+
+def get_all_ratings(table):
     """Return an array of numeric ratings from an html table"""
 
     try:
@@ -78,72 +93,27 @@ def get_rating(table):
         hike_len_in_mi = nan
 
     try:
-        difficulty_rating = int(
-            table[1]
-            .find("img")
-            .get("src")
-            .replace("../../images/stars/Star", "")
-            .replace("/images/stars/Star", "")
-            .replace("_clear.gif", "")
-            .replace("_grey.gif", "")
-            .replace("_red.gif", "")
-        )
+        difficulty_rating = get_one_rating(table, 1)
     except:
         difficulty_rating = nan
 
     try:
-        streams_rating = int(
-            table[2]
-            .find("img")
-            .get("src")
-            .replace("../../images/stars/Star", "")
-            .replace("/images/stars/Star", "")
-            .replace("_clear.gif", "")
-            .replace("_grey.gif", "")
-            .replace("_red.gif", "")
-        )
+        streams_rating = get_one_rating(table, 2)
     except:
         streams_rating = nan
 
     try:
-        views_rating = int(
-            table[3]
-            .find("img")
-            .get("src")
-            .replace("../../images/stars/Star", "")
-            .replace("/images/stars/Star", "")
-            .replace("_clear.gif", "")
-            .replace("_grey.gif", "")
-            .replace("_red.gif", "")
-        )
+        views_rating = get_one_rating(table, 3)
     except:
         views_rating = nan
 
     try:
-        solitude_rating = int(
-            table[4]
-            .find("img")
-            .get("src")
-            .replace("../../images/stars/Star", "")
-            .replace("/images/stars/Star", "")
-            .replace("_clear.gif", "")
-            .replace("_grey.gif", "")
-            .replace("_red.gif", "")
-        )
+        solitude_rating = get_one_rating(table, 4)
     except:
         solitude_rating = nan
 
     try:
-        camping_rating = int(
-            table[5]
-            .find("img")
-            .get("src")
-            .replace("../../images/stars/Star", "")
-            .replace("/images/stars/Star", "")
-            .replace("_clear.gif", "")
-            .replace("_grey.gif", "")
-            .replace("_red.gif", "")
-        )
+        camping_rating = get_one_rating(table, 5)
     except:
         camping_rating = nan
 
@@ -159,6 +129,7 @@ def get_rating(table):
 
 def get_duration_and_elevation(table):
     """"Return an array of duration and elevation gain from an html table"""
+    
     try:
         hiking_duration = str(table.contents[0].text.strip()) #av.note: want this to be numeric
     except:
