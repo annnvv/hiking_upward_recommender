@@ -1,16 +1,79 @@
-import pandas as pd
-import numpy as np
-import requests
+from pandas import DataFrame, concat 
+from numpy import nan
+from requests import get
 from bs4 import BeautifulSoup
+import pandera as pa
+from typing import List
 from sklearn.preprocessing import StandardScaler
 import turicreate as tc
+
+parks_abbr = [
+    "GWNF",
+    "GSMNP",
+    "JNF",
+    "MNF",
+    "NNF",
+    "PNF",
+    "SNP",
+    "WMNF",
+    "UNF",
+    "OMH",
+    "NCSP",
+    "OPH",
+    "OVH",
+    "OWVH",
+]
+
+# states = ['MD', 'VA', 'WV', 'NC', 'PA', 'NH']
+
+## define pandera schema
+schema = pa.DataFrameSchema(
+    {
+        "hike_name": pa.column(str, nullable=False),
+        "hike_url": pa.Column(
+            str,
+            pa.Check.str_startswith("https://www.hikingupward.com/"),
+            nullable=False,
+        ),
+        "park_abbreviation": pa.column(str, pa.Check.isin(parks_abbr), vnullable=False),
+        # "state": pa.column(str, pa.Check.isin(states), nullable = False),
+        "hike_len_in_mi": pa.Column(int, nullable=False),
+        "difficulty_rating": pa.Column(
+            int,
+            pa.Check.in_range(0, 6, include_min=True, include_max=True),
+            nullable=False,
+        ),
+        "streams_rating": pa.Column(
+            int,
+            pa.Check.in_range(0, 6, include_min=True, include_max=True),
+            nullable=False,
+        ),
+        "views_rating": pa.Column(
+            int,
+            pa.Check.in_range(0, 6, include_min=True, include_max=True),
+            nullable=False,
+        ),
+        "solitude_rating": pa.Column(
+            int,
+            pa.Check.in_range(0, 6, include_min=True, include_max=True),
+            nullable=False,
+        ),
+        "camping_rating": pa.Column(
+            int,
+            pa.Check.in_range(0, 6, include_min=True, include_max=True),
+            nullable=False,
+        ),
+        "hiking_duration": pa.Column(str),  ##will change to int in the future
+        "elevation_gain_ft": pa.Column(str),  ##will change to in in the future
+    }
+)
 
 
 def get_rating(table):
     try:
         hike_len_in_mi = float(table[0].text.replace("mls", "").strip())
     except:
-        hike_len_in_mi = np.nan
+        hike_len_in_mi = nan
 
     try:
         difficulty_rating = int(
@@ -24,7 +87,7 @@ def get_rating(table):
             .replace("_red.gif", "")
         )
     except:
-        difficulty_rating = np.nan
+        difficulty_rating = nan
 
     try:
         streams_rating = int(
@@ -38,7 +101,7 @@ def get_rating(table):
             .replace("_red.gif", "")
         )
     except:
-        streams_rating = np.nan
+        streams_rating = nan
 
     try:
         views_rating = int(
@@ -52,7 +115,7 @@ def get_rating(table):
             .replace("_red.gif", "")
         )
     except:
-        views_rating = np.nan
+        views_rating = nan
 
     try:
         solitude_rating = int(
@@ -66,7 +129,7 @@ def get_rating(table):
             .replace("_red.gif", "")
         )
     except:
-        solitude_rating = np.nan
+        solitude_rating = nan
 
     try:
         camping_rating = int(
@@ -80,7 +143,7 @@ def get_rating(table):
             .replace("_red.gif", "")
         )
     except:
-        camping_rating = np.nan
+        camping_rating = nan
 
     return (
         hike_len_in_mi,
@@ -140,9 +203,9 @@ def get_duration_and_elevation2(table):
     return hiking_duration, elevation_gain_ft
 
 
-def get_hike_data(hiking_upward_url: str) -> pd.DataFrame:
+def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
 
-    hike_content = requests.get(hiking_upward_url)
+    hike_content = get(hiking_upward_url)
     if hike_content.status_code == 200:
         try:
             hike_soup = BeautifulSoup(hike_content.text, "html.parser")
@@ -164,7 +227,7 @@ def get_hike_data(hiking_upward_url: str) -> pd.DataFrame:
                     time_elev
                 )
 
-                df = pd.DataFrame(
+                df = DataFrame(
                     {
                         "hike_name": str(hike_soup.title.text),
                         "park_abbreviation": hiking_upward_url.replace(
@@ -214,7 +277,7 @@ def get_hike_data(hiking_upward_url: str) -> pd.DataFrame:
                     time_elev2
                 )
 
-                df = pd.DataFrame(
+                df = DataFrame(
                     {
                         "hike_name": [
                             str(hike_soup.title.text),
@@ -276,7 +339,7 @@ def get_hike_data(hiking_upward_url: str) -> pd.DataFrame:
                     time_elev2
                 )
 
-                df = pd.DataFrame(
+                df = DataFrame(
                     {
                         "hike_name": [
                             str(hike_soup.title.text),
@@ -311,58 +374,84 @@ def get_hike_data(hiking_upward_url: str) -> pd.DataFrame:
         except Exception:
             pass
 
+def get_many_hikes() -> DataFrame:
+    try:
+        url = "https://www.hikingupward.com/"
+        data = get(url)
+        soup = BeautifulSoup(data.text, "html.parser")
 
-####
-try:
-    url = "https://www.hikingupward.com/"
-    data = requests.get(url)
-    soup = BeautifulSoup(data.text, "html.parser")
+        url_links = [
+            url + url_link.attrs.get("href")
+            for nav in soup.find_all("div", {"class": "navigation"})
+            for url_link in nav.find_all("a", href=True)
+        ]
 
-    url_links = [
-        url + url_link.attrs.get("href")
-        for nav in soup.find_all("div", {"class": "navigation"})
-        for url_link in nav.find_all("a", href=True)
-    ]
+        hike = []
+        for url_link in url_links:
+            one_hike_df = get_one_hike_data(url_link)
+            hike.append(one_hike_df)
+        hike_df = concat(hike, ignore_index=True)
 
-    hike = []
-    for url_link in url_links:
-        one_hike_df = get_hike_data(url_link)
-        hike.append(one_hike_df)
-    hike_df = pd.concat(hike, ignore_index=True)
+        hike_df.streams_rating.fillna(0, inplace=True)
+        hike_df.camping_rating.fillna(0, inplace=True)
+        hike_df.views_rating.fillna(0, inplace=True)
 
-    hike_df.streams_rating.fillna(0, inplace=True)
-    hike_df.camping_rating.fillna(0, inplace=True)
-    hike_df.views_rating.fillna(0, inplace=True)
+        hike_df.dropna(
+            subset=[
+                "hike_url",
+                "hike_len_in_mi",
+                "difficulty_rating",
+                "streams_rating",
+                "views_rating",
+                "solitude_rating",
+                "camping_rating",
+            ],
+            inplace=True,
+        )
 
-    print(hike_df.head())
-    hike_df.to_csv("/data/hiking_upward_data.csv", index=False)
+        print(hike_df.head())
+        schema.validate(hike_df, lazy=True)
 
-except Exception as e:
-    print(e)
+        hike_df.to_csv("data/hiking_upward_data_TEST.csv", index=False) #av.note: will eventually want to get rid of this
 
-std_scaler = StandardScaler()
-scaled = hike_df[
-    [
-        "hike_len_in_mi",
-        "difficulty_rating",
-        "streams_rating",
-        "views_rating",
-        "solitude_rating",
-        "camping_rating",
-    ]
-]
-df_scaled = std_scaler.fit_transform(scaled.to_numpy())
-df_scaled = pd.DataFrame(df_scaled, columns=scaled.columns)
-df_scaled["hike_url"] = hike_df["hike_url"]
+    except Exception as e:
+        print(e)
 
-tcdf = tc.SFrame(data=df_scaled)
+    return hike_df
 
-## fit the model
-recommender_model = tc.recommender.item_content_recommender.create(
-    tcdf, item_id="hike_url"
-)
+def scale_df(df: DataFrame, 
+    list_vars: List = [
+            "hike_len_in_mi",
+            "difficulty_rating",
+            "streams_rating",
+            "views_rating",
+            "solitude_rating",
+            "camping_rating",
+        ]) -> DataFrame:
+    std_scaler = StandardScaler()
+    scaled = df[list_vars]
+    df_scaled = std_scaler.fit_transform(scaled.to_numpy())
+    df_scaled = DataFrame(df_scaled, columns=scaled.columns)
+    df_scaled["hike_url"] = df["hike_url"]
 
-## return the fifteen most similar items for every item in the training data
-nn = recommender_model.get_similar_items(k=15)
+    return df_scaled  ##av.note: might need to return the standard scaler so that it can be used in the recommendation
 
-# nn.export_csv("nearest_15_recommendations_for_each_hike.csv")
+
+def get_recommendations():
+    hike_df = get_many_hikes()
+    df_scaled = scale_df(hike_df)
+    tcdf = tc.SFrame(data=df_scaled)
+
+    ## fit the model
+    recommender_model = tc.recommender.item_content_recommender.create(
+        tcdf, item_id="hike_url", verbose=False
+    )
+
+    ## return the fifteen most similar items for every item in the training data
+    nn = recommender_model.get_similar_items(k=15)
+
+    nn.export_csv("data/nearest_15_recommendations_for_each_hike_TEST.csv") #av.note: will eventually want to get rid of this
+    print("recommender finished")
+
+
+get_recommendations()
