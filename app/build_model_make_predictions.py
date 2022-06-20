@@ -2,12 +2,16 @@ from pandas import DataFrame, concat
 from numpy import nan
 from requests import get
 from bs4 import BeautifulSoup
-import pandera as pa
+from pandera import DataFrameSchema, Column, Check
+from pandera.errors import SchemaErrors
 from typing import List
 from sklearn.preprocessing import StandardScaler
-import turicreate as tc
+from sklearn.metrics.pairwise import cosine_similarity
+# import turicreate as tc
 
-parks_abbr = [
+HOME_PAGE_URL = "https://www.hikingupward.com/"
+
+PARKS_ABBR = [
     "GWNF",
     "GSMNP",
     "JNF",
@@ -24,47 +28,47 @@ parks_abbr = [
     "OWVH",
 ]
 
-# states = ['MD', 'VA', 'WV', 'NC', 'PA', 'NH']
+# STATES = ['MD', 'VA', 'WV', 'NC', 'PA', 'NH']
 
 ## define pandera schema
-schema = pa.DataFrameSchema(
+schema = DataFrameSchema(
     {
-        "hike_name": pa.column(str, nullable=False),
-        "hike_url": pa.Column(
+        "hike_name": Column(str, nullable=False),
+        "hike_url": Column(
             str,
-            pa.Check.str_startswith("https://www.hikingupward.com/"),
+            Check.str_startswith(HOME_PAGE_URL),
             nullable=False,
         ),
-        "park_abbreviation": pa.column(str, pa.Check.isin(parks_abbr), nullable=False),
-        # "state": pa.column(str, pa.Check.isin(states), nullable = False),
-        "hike_len_in_mi": pa.Column(int, nullable=False),
-        "difficulty_rating": pa.Column(
+        "park_abbreviation": Column(str, Check.isin(PARKS_ABBR), nullable=False),
+        # "state": Column(str, Check.isin(STATES), nullable = False),
+        "hike_len_in_mi": Column(int, nullable=False),
+        "difficulty_rating": Column(
             int,
-            pa.Check.in_range(0, 6, include_min=True, include_max=True),
+            Check.in_range(0, 6, include_min=True, include_max=True),
             nullable=False,
         ),
-        "streams_rating": pa.Column(
+        "streams_rating": Column(
             int,
-            pa.Check.in_range(0, 6, include_min=True, include_max=True),
+            Check.in_range(0, 6, include_min=True, include_max=True),
             nullable=False,
         ),
-        "views_rating": pa.Column(
+        "views_rating": Column(
             int,
-            pa.Check.in_range(0, 6, include_min=True, include_max=True),
+            Check.in_range(0, 6, include_min=True, include_max=True),
             nullable=False,
         ),
-        "solitude_rating": pa.Column(
+        "solitude_rating": Column(
             int,
-            pa.Check.in_range(0, 6, include_min=True, include_max=True),
+            Check.in_range(0, 6, include_min=True, include_max=True),
             nullable=False,
         ),
-        "camping_rating": pa.Column(
+        "camping_rating": Column(
             int,
-            pa.Check.in_range(0, 6, include_min=True, include_max=True),
+            Check.in_range(0, 6, include_min=True, include_max=True),
             nullable=False,
         ),
-        "hiking_duration": pa.Column(str),  ##will change to int in the future
-        "elevation_gain_ft": pa.Column(str),  ##will change to in in the future
+        "hiking_duration_str": Column(str),  ##will change to int in the future
+        "elevation_gain_ft_str": Column(str),  ##will change to in in the future
     }
 )
 
@@ -209,7 +213,7 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                     {
                         "hike_name": str(hike_soup.title.text),
                         "park_abbreviation": hiking_upward_url.replace(
-                            "https://www.hikingupward.com/", ""
+                            HOME_PAGE_URL, ""
                         ).split("/", 1)[0],
                         "hike_url": str(hiking_upward_url),
                         "hike_len_in_mi": hike_len_in_mi,
@@ -219,7 +223,7 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                         "solitude_rating": solitude_rating,
                         "camping_rating": camping_rating,
                         "hiking_duration_str": hiking_duration,
-                        "elevation_gain_ft": elevation_gain_ft,
+                        "elevation_gain_ft_str": elevation_gain_ft,
                     },
                     index=[0],
                 )
@@ -263,10 +267,10 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                         ],
                         "park_abbreviation": [
                             hiking_upward_url.replace(
-                                "https://www.hikingupward.com/", ""
+                                HOME_PAGE_URL, ""
                             ).split("/", 1)[0],
                             hiking_upward_url.replace(
-                                "https://www.hikingupward.com/", ""
+                                HOME_PAGE_URL, ""
                             ).split("/", 1)[0],
                         ],
                         "hike_url": [
@@ -280,7 +284,7 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                         "solitude_rating": [solitude_rating, solitude_rating2],
                         "camping_rating": [camping_rating, camping_rating2],
                         "hiking_duration_str": [hiking_duration, hiking_duration2],
-                        "elevation_gain_ft": [elevation_gain_ft, elevation_gain_ft],
+                        "elevation_gain_ft_str": [elevation_gain_ft, elevation_gain_ft],
                     },
                     index=[0, 1],
                 )
@@ -325,10 +329,10 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                         ],
                         "park_abbreviation": [
                             hiking_upward_url.replace(
-                                "https://www.hikingupward.com/", ""
+                                HOME_PAGE_URL, ""
                             ).split("/", 1)[0],
                             hiking_upward_url.replace(
-                                "https://www.hikingupward.com/", ""
+                                HOME_PAGE_URL, ""
                             ).split("/", 1)[0],
                         ],
                         "hike_url": [
@@ -342,7 +346,7 @@ def get_one_hike_data(hiking_upward_url: str) -> DataFrame:
                         "solitude_rating": [solitude_rating, solitude_rating2],
                         "camping_rating": [camping_rating, camping_rating2],
                         "hiking_duration_str": [hiking_duration, hiking_duration2],
-                        "elevation_gain_ft": [elevation_gain_ft, elevation_gain_ft],
+                        "elevation_gain_ft_str": [elevation_gain_ft, elevation_gain_ft],
                     },
                     index=[0, 1],
                 )
@@ -356,7 +360,7 @@ def get_many_hikes() -> DataFrame:
     """Return a dataframe with data for all hikes on hikingupward.com and do some minor cleaning on the dataframe """
 
     try:
-        url = "https://www.hikingupward.com/"
+        url = HOME_PAGE_URL
         data = get(url)
         soup = BeautifulSoup(data.text, "html.parser")
 
@@ -372,9 +376,13 @@ def get_many_hikes() -> DataFrame:
             hike.append(one_hike_df)
         hike_df = concat(hike, ignore_index=True)
 
+        hike_df.difficulty_rating.fillna(0, inplace=True)
         hike_df.streams_rating.fillna(0, inplace=True)
-        hike_df.camping_rating.fillna(0, inplace=True)
         hike_df.views_rating.fillna(0, inplace=True)
+        hike_df.solitude_rating.fillna(0, inplace=True)
+        hike_df.camping_rating.fillna(0, inplace=True)
+        
+        print(f"shape of df is {hike_df.shape}")
 
         hike_df.dropna(
             subset=[
@@ -389,15 +397,17 @@ def get_many_hikes() -> DataFrame:
             inplace=True,
         )
 
-        print(hike_df.head())
-        schema.validate(hike_df, lazy=True)
+        print(f"shape of df is {hike_df.shape}")
+
+        print(hike_df.head(1))
 
         hike_df.to_csv("data/hiking_upward_data_TEST.csv", index=False) #av.note: will eventually want to get rid of this
-
+        
+        return hike_df
+        
     except Exception as e:
         print(e)
 
-    return hike_df
 
 def scale_df(df: DataFrame, 
     list_vars: List = [
@@ -423,22 +433,37 @@ def scale_df(df: DataFrame,
 def get_recommendations():
     """This function is a work in progress, will change from current iteration """
 
-    hike_df = get_many_hikes()
-    df_scaled = scale_df(hike_df)
-    tcdf = tc.SFrame(data=df_scaled)
+    hikes_df = get_many_hikes()
 
-    ## fit the model
-    recommender_model = tc.recommender.item_content_recommender.create(
-        tcdf, item_id="hike_url", verbose=False
-    )
+    try:
+        schema.validate(hikes_df, lazy=True)
+    except SchemaErrors as err:
+        err.failure_cases  # dataframe of schema errors
+        err.data  # invalid dataframe
 
-    ## return the fifteen most similar items for every item in the training data
-    nn = recommender_model.get_similar_items(k=15)
+    df_scaled = scale_df(hikes_df)
+    ## something like this: https://www.alpha-quantum.com/blog/content-based-recommendation-engine/content-based-recommender-system-with-python/
 
-    nn.export_csv("data/nearest_15_recommendations_for_each_hike_TEST.csv") #av.note: will eventually want to get rid of this
-    print("recommender finished")
+# Step1. User enters the hike URL
+# Step2. Check if hike URL already exists in hikes_df
+    # Step2b. If it does not, scrape the data from the url 
+# Step3. Scale the new data (using the transform method)
+# Step4. Calculate the cosine similarity between hikes_df and new_nike_data
+# Step5. Sort the cosine similarity scores and subset to the requested number of recommendations
+# Step6. Get the index of the recommendations and subset hikes_df 
+# Step7. Return the recommendations 
 
-    return nn
+    # tcdf = tc.SFrame(data=df_scaled)
+    # ## fit the model
+    # recommender_model = tc.recommender.item_content_recommender.create(
+    #     tcdf, item_id="hike_url", verbose=False
+    # )
+    # ## return the fifteen most similar items for every item in the training data
+    # nn = recommender_model.get_similar_items(k=15)
+    # nn.export_csv("data/nearest_15_recommendations_for_each_hike_TEST.csv") #av.note: will eventually want to get rid of this
+    # print("recommender finished")
+
+    # return None
 
 
 get_recommendations()
