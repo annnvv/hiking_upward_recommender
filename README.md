@@ -43,7 +43,7 @@ Useful command line command for poetry
 ```
 poetry cache clear --all pypi ##(seem to speed up dependency resolution)
 
-poetry env remove python ## delete poetry virtual env
+poetry env remove python ## delete poetry virtual env based on this [link](https://stackoverflow.com/questions/65783409/poetry-install-fails-with-envcommanderror-looks-for-version-2020-12-21-3-lambda) 
 ```
 
 ### Docker:
