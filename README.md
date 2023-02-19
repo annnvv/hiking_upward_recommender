@@ -39,9 +39,11 @@ To see the app, please visit [this link](https://share.streamlit.io/annnvv/hikin
 - https://mungingdata.com/python/jupyter-workflow-poetry-pandas/ 
 - https://pythonspeed.com/articles/poetry-vs-docker-caching/
 
-Useful command line command for poetry (seem to speed up dependency resolution)
+Useful command line command for poetry 
 ```
-poetry cache clear --all pypi
+poetry cache clear --all pypi ##(seem to speed up dependency resolution)
+
+poetry env remove python ## delete poetry virtual env
 ```
 
 ### Docker:
