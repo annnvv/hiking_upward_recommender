@@ -14,6 +14,11 @@ To see the app, please visit [this link](https://share.streamlit.io/annnvv/hikin
 
 **Data Source**: webscraping [Hiking Upward](https://www.hikingupward.com)
 
+**TO DO**:
+- load data into a vector database (maybe Annoy (Approximate Nearest Neighbors Oh Yeah) ??)
+- update docker file and streamlit to pull from vector database
+- on front end have an optional selection button for use 
+
 ## Skills used:
 - Web scraping using `requests` and `beautifulsoup` 
 - Validating a dataframe using `pandera`
